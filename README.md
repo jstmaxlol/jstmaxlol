@@ -2,4 +2,4 @@
 ## I'm a freelance graphics designer & mograph editor
 |Social Networks🌐|Commissions💵|More⚙️|
 |-|-|-|
-|[Linktree🌲](https://bit.ly/mx_info)|[Ko-Fi🍵](https://bit.ly/mx_kofi)|[MWhtml🦄](https://maxwastakenyt.github.io)|
+|[Linktree🌲](https://bit.ly/mx_info)|[Ko-Fi🍵](https://bit.ly/mx_kofi)|[MWhtml🦄](https://stable.mwhtml.rf.gd)|
