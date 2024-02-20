@@ -1,5 +1,5 @@
-# ![Welcum](https://img.shields.io/badge/welcome%20to-maxwastaken's%20profile-BB85BB)
-![im a frelnc](https://img.shields.io/badge/i'm%20a-freelance-BB85BB)![gfxdsg](https://img.shields.io/badge/graphic-designer-BB85BB)
+# ![WTMP](https://img.shields.io/badge/maxwastaken's%20profile-X?style=plastic&label=welcome%20to&labelColor=%2355b558&color=%23815c9c&link=https%3A%2F%2Fbit.ly%2Fmx_info)
+![IF](https://img.shields.io/badge/freelance-X?style=plastic&label=i'm%20a&labelColor=%232d2a2e&color=%232d2a2e&link=https%3A%2F%2Fbit.ly%2Fmx_info)![GD](https://img.shields.io/badge/designer-X?style=plastic&label=graphic&labelColor=%23cfcfcf&color=%23cfcfcf&link=https%3A%2F%2Fbit.ly%2Fmx_info)
 
 |Social Networks🌐|Logo Commissions💵|More⚙️|
 |-|-|-|
