@@ -4,3 +4,6 @@
 |Social Networks🌐|Logo Commissions💵|Stupid Projects⚙️|
 |-|-|-|
 |[Linktree🌲](https://bit.ly/mx_info)|[Ko-Fi🍵](https://bit.ly/mx_kofi)|[Yes or No?🔘](https://github.com/MaxWasTakenYT/YesOrNo)
+
+# Important notes _(not actually important)_
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=if+you+want+to+talk+with+me,;just+add+me+on+discord:+@maxwastakenlol)](https://git.io/typing-svg)
