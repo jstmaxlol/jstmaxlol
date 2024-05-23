@@ -6,4 +6,4 @@
 |[Linktree🌲](https://bit.ly/mx_info)|[Ko-Fi🍵](https://bit.ly/mx_kofi)|[95Windows🔘](https://github.com/MaxWasTakenYT/95Windows)
 
 ### Important notes _(not actually important)_
-##### 29/04/2024 i'm happy because [95Windows's](95Windows.rf.gd) B/C product key generator works!
+##### 23/05/2024 NO NOTES?!
