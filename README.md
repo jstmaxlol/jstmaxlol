@@ -3,7 +3,7 @@
 
 |Social Networks🌐|Logo Commissions💵|Projects I'm proud of / I'm working on⚙️|
 |-|-|-|
-|[Linktree🌲](https://bit.ly/mx_info)|[Ko-Fi🍵](https://bit.ly/mx_kofi)|[95Windows🔘](https://github.com/MaxWasTakenYT/95Windows)
+|[Linktree🌲](https://bit.ly/mx_info)|[Ko-Fi🍵](https://bit.ly/mx_kofi)|[None (for now..)😭](https://github.com/MaxWasTakenYT/)
 
 ### Important notes _(not actually important)_
 ##### 23/05/2024 NO NOTES?!
