@@ -7,3 +7,4 @@
 
 ### Important notes _(not actually important)_
 ##### 23/05/2024 NO NOTES?!
+##### 07/07/2024 haven't sleep in a couple of days, working on [SSI](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller/)
