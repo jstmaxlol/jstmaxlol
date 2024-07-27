@@ -3,7 +3,7 @@
 
 |social Networks🌐|logo Commissions💵|projects I'm proud Of / i'm Working On⚙️|
 |-|-|-|
-|[linkTree🌲](https://bit.ly/mx_info)|[koFi🍵](https://bit.ly/mx_kofi)|[SSIR🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)
+|[linkTree🌲](https://bit.ly/mx_info)|[koFi🍵](https://bit.ly/mx_kofi)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)
 
 ### important Notes _(not actually important)_
 ##### 23/05/2024 : NO NOTES?!
