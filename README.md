@@ -2,7 +2,7 @@
 
 |social Networks🌐|support Me💖|projects I'm Working On⚙️|
 |-|-|-|
-|[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://bit.ly/mx_kofi)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)
+|[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)
 |[twitter🐤]()|[paypal Donations💟](https://bit.ly/mx_donate)|[JM-💡](https://github.com/maxwastakenyt/jmdash)|
 
 ## programming languages that i know🔭 
