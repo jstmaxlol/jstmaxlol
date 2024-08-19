@@ -17,11 +17,11 @@
 |Java❎|Low, fuck java (for now)❎|
 
 ## Emoji legend🌟:
-💟: Love it / Main programming language
-✅: Like it / Still learning
-🌠: Dropped (e.g. due to lack of interest) / Ex-main programming language
-👍: Finished learning
-❎: Hate it
+💟: Love it / Main programming language \
+✅: Like it / Still learning \
+🌠: Dropped (e.g. due to lack of interest) / Ex-main programming language \
+👍: Finished learning \
+❎: Hate it \
 
 ### important Notes📒 _(not actually important)_
 ##### 23/05/2024 : NO NOTES?!
