@@ -8,13 +8,20 @@
 ## programming languages that i know🔭 
 |language name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
-|C++|High, still learning, main language|
-|C#|Medium-high, dropped due to lack of interest|
-|HTML|~Very high, finished learning|
-|CSS|High, still learning|
-|JavaScript|Medium, dropped like C#, sporadically learn new stuff|
-|Python|~Very high, finished learning, ex-main language|
+|C++|High, still learning, main language💟|
+|C#|Medium-high, dropped due to lack of interest🌠|
+|HTML|~Very high, finished learning👍|
+|CSS|High, still learning✅|
+|JavaScript|Medium, dropped like C#, sporadically learn new stuff🌠|
+|Python|~Very high, finished learning, ex-main language🌠|
 |Java|Low, fuck java (for now)|
+
+## Emoji legend:
+💟: Love it / Main programming language
+✅: Like it / Still learning
+🌠: Dropped (e.g. due to lack of interest) / Ex-main programming language
+👍: Finished learning
+❎: Hate it
 
 ### important Notes _(not actually important)_
 ##### 23/05/2024 : NO NOTES?!
