@@ -8,22 +8,22 @@
 ## programming languages that i know🔭 
 |language name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
-|C++|High, still learning, main language💟|
-|C#|Medium-high, dropped due to lack of interest🌠|
-|HTML|~Very high, finished learning👍|
-|CSS|High, still learning✅|
-|JavaScript|Medium, dropped like C#, sporadically learn new stuff🌠|
-|Python|~Very high, finished learning, ex-main language🌠|
-|Java|Low, fuck java (for now)|
+|C++💟|High, still learning, main language💟|
+|C#🌠|Medium-high, dropped due to lack of interest🌠|
+|HTML👍|~Very high, finished learning👍|
+|CSS✅|High, still learning✅|
+|JavaScript🌠|Medium, dropped like C#, sporadically learn new stuff🌠|
+|Python🌠|~Very high, finished learning, ex-main language🌠|
+|Java❎|Low, fuck java (for now)❎|
 
-## Emoji legend:
+## Emoji legend🌟:
 💟: Love it / Main programming language
 ✅: Like it / Still learning
 🌠: Dropped (e.g. due to lack of interest) / Ex-main programming language
 👍: Finished learning
 ❎: Hate it
 
-### important Notes _(not actually important)_
+### important Notes📒 _(not actually important)_
 ##### 23/05/2024 : NO NOTES?!
 ##### 07/07/2024 : haven't sleep in a couple of days, working on [SSI](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller/)
 ##### 27/07/2024 @ 05:00 : [!!-~-*](https://bit.ly/mx_info)[\(@ ^@)/](https://bit.ly/mx_info)[*-~-!!](https://bit.ly/mx_info)
