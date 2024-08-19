@@ -23,10 +23,10 @@
 👍: Finished learning \
 ❎: Hate it
 
-### important Notes📒 _(not actually important)_
-##### 23/05/2024 : NO NOTES?!
-##### 07/07/2024 : haven't sleep in a couple of days, working on [SSI](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller/)
-##### 27/07/2024 @ 05:00 : [!!-~-*](https://bit.ly/mx_info)[\(@ ^@)/](https://bit.ly/mx_info)[*-~-!!](https://bit.ly/mx_info)
+## important Notes📒 _(not actually important)_
+23/05/2024 : NO NOTES?! \
+07/07/2024 : haven't sleep in a couple of days, working on [SSI](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller/) \
+27/07/2024 @ 05:00 : [!!-~-*](https://bit.ly/mx_info)[\(@ ^@)/](https://bit.ly/mx_info)[*-~-!!](https://bit.ly/mx_info)
 
 ## digital Signature / Credits✒️
 full-form: ``{ jstmax! } @ { 62 69 74 2E 6C 79 2F 6D 78 5F 69 6E 66 6F }``
