@@ -1,9 +1,11 @@
-### ![WTMP](https://img.shields.io/badge/jstmax!'s%20profile-X?style=plastic&label=welcome%20to&labelColor=%2355b558&color=%23815c9c&link=https%3A%2F%2Fbit.ly%2Fmx_info)
-![IF](https://img.shields.io/badge/freelance-X?style=plastic&label=i'm%20a&labelColor=%232d2a2e&color=%232d2a2e&link=https%3A%2F%2Fbit.ly%2Fmx_info)![GD](https://img.shields.io/badge/designer-X?style=plastic&label=graphic&labelColor=%23cfcfcf&color=%23cfcfcf&link=https%3A%2F%2Fbit.ly%2Fmx_info)
+![!aUniBanner](https://github.com/user-attachments/assets/970b8cfa-e297-4195-8e99-8d217f3d5b5e)
 
-|social Networks🌐|logo Commissions💵|projects I'm proud Of / i'm Working On⚙️|
+|social Networks🌐|support Me💖|projects I'm Working On⚙️|
 |-|-|-|
-|[linkTree🌲](https://bit.ly/mx_info)|[koFi🍵](https://bit.ly/mx_kofi)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)
+|[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://bit.ly/mx_kofi)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)
+|[twitter🐤]()|[paypal donations💟](https://bit.ly/mx_donate)|[JM-💡](https://github.com/maxwastakenyt/jmdash)|
+
+###
 
 ### important Notes _(not actually important)_
 ##### 23/05/2024 : NO NOTES?!
