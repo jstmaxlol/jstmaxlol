@@ -5,8 +5,8 @@
 |[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)
 |[twitter🐤]()|[paypal Donations💟](https://bit.ly/mx_donate)|[JM-💡](https://github.com/maxwastakenyt/jmdash)|
 
-## programming languages that i know🔭 
-|language name📝|📚L.O.K. Level Of Knowledge|
+## programming languages i know🔭 
+|language Name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
 |C++💟|High, still learning, main language💟|
 |C#🌠|Medium-high, dropped due to lack of interest🌠|
@@ -16,7 +16,7 @@
 |Python🌠|~Very high, finished learning, ex-main language🌠|
 |Java❎|Low, fuck java (for now)❎|
 
-## Emoji legend🌟:
+## emoji Legend🌟:
 💟: Love it / Main programming language \
 ✅: Like it / Still learning \
 🌠: Dropped (e.g. due to lack of interest) / Ex-main programming language \
@@ -28,6 +28,6 @@
 ##### 07/07/2024 : haven't sleep in a couple of days, working on [SSI](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller/)
 ##### 27/07/2024 @ 05:00 : [!!-~-*](https://bit.ly/mx_info)[\(@ ^@)/](https://bit.ly/mx_info)[*-~-!!](https://bit.ly/mx_info)
 
-## digital signature / credits✒️
+## digital Signature / Credits✒️
 full-form: ``{ jstmax! } @ { 62 69 74 2E 6C 79 2F 6D 78 5F 69 6E 66 6F }``
 short-form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F``
