@@ -2,12 +2,13 @@
 
 |social Networks🌐|support Me💖|projects I'm Working On⚙️|
 |-|-|-|
-|[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)
-|[twitter🐤]()|[paypal Donations💟](https://bit.ly/mx_donate)|[JM-💡](https://github.com/maxwastakenyt/jmdash)|
+|[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JM-💡](https://github.com/maxwastakenyt/jmdash)|
+|[twitter🐤]()|[paypal Donations💟](https://bit.ly/mx_donate)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)|
 
 ## programming languages i know🔭 
 |language Name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
+|JM-😶‍🌫️|I created it so.. [check it out!😶‍🌫️](https://github.com/maxwastakenyt/jmdash)|
 |C++💟|High, still learning, main language💟|
 |C#🌠|Medium-high, dropped due to lack of interest🌠|
 |HTML👍|~Very high, finished learning👍|
@@ -22,6 +23,7 @@
 🌠: Dropped (e.g. due to lack of interest) / Ex-main programming language \
 👍: Finished learning \
 ❎: Hate it
+😶‍🌫️: I created it..
 
 ## important Notes📒 _(not actually important)_
 23/05/2024 : NO NOTES?! \
