@@ -8,7 +8,7 @@
 ## programming languages i know🔭 
 |language Name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
-|JM-😶‍🌫️|I created it so.. [check it out!😶‍🌫️](https://github.com/maxwastakenyt/jmdash)|
+|JM-😶‍🌫️|I created it myself so.. [check it out!😶‍🌫️](https://github.com/maxwastakenyt/jmdash)|
 |C++💟|High, still learning, main language💟|
 |C#🌠|Medium-high, dropped due to lack of interest🌠|
 |HTML👍|~Very high, finished learning👍|
