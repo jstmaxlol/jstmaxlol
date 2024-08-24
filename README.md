@@ -3,7 +3,7 @@
 |social Networks🌐|support Me💖|projects I'm Working On⚙️|
 |-|-|-|
 |[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JM-💡](https://github.com/maxwastakenyt/jmdash)|
-|[twitter🐤]()|[paypal Donations💟](https://bit.ly/mx_donate)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)|
+|[twitter🐤](https://twitter.com/maxwasntaken)|[paypal Donations💟](https://bit.ly/mx_donate)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)|
 
 ## programming languages i know🔭 
 |language Name📝|📚L.O.K. Level Of Knowledge|
