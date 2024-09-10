@@ -29,9 +29,10 @@
 23/05/2024 : NO NOTES?! \
 07/07/2024 : haven't sleep in a couple of days, working on [SSI](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller/) \
 27/07/2024 @ 05:00 : [!!-~-*](https://bit.ly/mx_info)[\(@ ^@)/](https://bit.ly/mx_info)[*-~-!!](https://bit.ly/mx_info) \
-21/08/2024 @ 01:02 : the JM- development is going great, i'll probably finish the first initial release sooner than i expected.
+21/08/2024 @ 01:02 : the JM- development is going great.
+10/09/2024 @ 16:13 : AAAAAAAAAAAAAAA
 
-## digital Signature / Credits✒️
+## digital Signature / Credit / Digital 'Tag'✒️
 full-form: ``{ jstmax! } @ { 62 69 74 2E 6C 79 2F 6D 78 5F 69 6E 66 6F }`` \
 short-form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
 pgp: (still none) \
