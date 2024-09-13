@@ -2,13 +2,13 @@
 
 |social Networks🌐|support Me💖|projects I'm Working On⚙️|
 |-|-|-|
-|[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JM-💡](https://github.com/maxwastakenyt/jmdash)|
+|[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JM-💡](https://github.com/jmdash-devs/jmdash)|
 |[twitter🐤](https://twitter.com/maxwasntaken)|[paypal Donations💟](https://bit.ly/mx_donate)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)|
 
 ## programming languages i know🔭 
 |language Name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
-|JM-😶‍🌫️|I created it myself so.. [check it out!😶‍🌫️](https://github.com/maxwastakenyt/jmdash)|
+|JM-😶‍🌫️|I created it myself so.. [check it out!😶‍🌫️](https://github.com/jmdash-devs/jmdash)|
 |C++💟|High, still studying, main language💟|
 |C#🌠|Medium-high, Stopped studying, for now🌠|
 |HTML👍|~High, stopped studying👍|
@@ -30,8 +30,9 @@
 23/05/2024 : NO NOTES?! \
 07/07/2024 : haven't sleep in a couple of days, working on [SSI](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller/) \
 27/07/2024 @ 05:00 : [!!-~-*](https://bit.ly/mx_info)[\(@ ^@)/](https://bit.ly/mx_info)[*-~-!!](https://bit.ly/mx_info) \
-21/08/2024 @ 01:02 : the JM- development is going great. (trust me)
+21/08/2024 @ 01:02 : the [JM-](https://github.com/jmdash-devs/jmdash) development is going great. (trust me)
 10/09/2024 @ 16:13 : AAAAAAAAAAAAAAA
+13/09/2024 @ 20:06 : The JM- (or JMDash) repository has been transported to: [JMDash Developers Organization](https://github.com/jmdash-devs)
 
 ## digital Signature / Credit / Digital 'Tag'✒️
 full-form: ``{ jstmax! } @ { 62 69 74 2E 6C 79 2F 6D 78 5F 69 6E 66 6F }`` \
