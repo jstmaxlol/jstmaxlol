@@ -9,27 +9,28 @@
 |language Name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
 |JM-😶‍🌫️|I created it myself so.. [check it out!😶‍🌫️](https://github.com/maxwastakenyt/jmdash)|
-|C++💟|High, still learning, main language💟|
-|C#🌠|Medium-high, dropped due to lack of interest🌠|
-|HTML👍|~Very high, finished learning👍|
-|CSS✅|High, still learning✅|
-|JavaScript🌠|Medium, dropped like C#, sporadically learn new stuff🌠|
-|Python🌠|~Very high, finished learning, ex-main language🌠|
+|C++💟|High, still studying, main language💟|
+|C#🌠|Medium-high, Stopped studying, for now🌠|
+|HTML👍|~High, stopped studying👍|
+|CSS✅|High, still studying✅|
+|JavaScript🌠|Medium, dropped but sporadically learn new stuff🌠|
+|Python🌠|~Very high, finished studying, ex-main language🌠|
 |Java❎|Low, fuck java (for now)❎|
+|Bash👍|~Medium, stopped studying👍|
 
 ## emoji Legend🌟:
 💟: Love it / Main programming language \
-✅: Like it / Still learning \
+✅: Like it / Still studying \
 🌠: Dropped (e.g. due to lack of interest) / Ex-main programming language \
-👍: Finished learning \
-❎: Hate it
+👍: Stopped studying \
+❎: Hate it \
 😶‍🌫️: I created it..
 
 ## important Notes📒 _(not actually important)_
 23/05/2024 : NO NOTES?! \
 07/07/2024 : haven't sleep in a couple of days, working on [SSI](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller/) \
 27/07/2024 @ 05:00 : [!!-~-*](https://bit.ly/mx_info)[\(@ ^@)/](https://bit.ly/mx_info)[*-~-!!](https://bit.ly/mx_info) \
-21/08/2024 @ 01:02 : the JM- development is going great.
+21/08/2024 @ 01:02 : the JM- development is going great. (trust me)
 10/09/2024 @ 16:13 : AAAAAAAAAAAAAAA
 
 ## digital Signature / Credit / Digital 'Tag'✒️
