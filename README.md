@@ -34,7 +34,7 @@
 10/09/2024 @ 16:13 : AAAAAAAAAAAAAAA
 13/09/2024 @ 20:06 : The JM- (or JMDash) repository has been transported to: [JMDash Developers Organization](https://github.com/jmdash-devs)
 
-## digital Signature / Credit / Digital 'Tag'✒️
+## digital Signature / PGP Public Key✒️
 full-form: ``{ jstmax! } @ { 62 69 74 2E 6C 79 2F 6D 78 5F 69 6E 66 6F }`` \
 short-form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
-// todo: add PGP public key
+[pgp public key](https://raw.githubusercontent.com/MaxWasTakenYT/MaxWasTakenYT/main/jmPGP%20-%20pub.asc)
