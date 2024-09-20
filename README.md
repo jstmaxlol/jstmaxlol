@@ -26,13 +26,11 @@
 ❎: Hate it \
 😶‍🌫️: I created it..
 
-## important Notes📒 _(not actually important)_
-23/05/2024 : NO NOTES?! \
-07/07/2024 : haven't sleep in a couple of days, working on [SSI](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller/) \
-27/07/2024 @ 05:00 : [!!-~-*](https://bit.ly/mx_info)[\(@ ^@)/](https://bit.ly/mx_info)[*-~-!!](https://bit.ly/mx_info) \
-21/08/2024 @ 01:02 : the [JM-](https://github.com/jmdash-devs/jmdash) development is going great. (trust me)
-10/09/2024 @ 16:13 : AAAAAAAAAAAAAAA
-13/09/2024 @ 20:06 : The JM- (or JMDash) repository has been transported to: [JMDash Developers Organization](https://github.com/jmdash-devs)
+## languages I Know🔭 
+|language Name📝|📚L.O.K. Level Of Knowledge|
+|-|-|
+|Italian🇮🇹|native Language|
+|English🇬🇧|high Level - secondary Language|
 
 ## digital Signature / PGP Public Key✒️
 full-form: ``{ jstmax! } @ { 62 69 74 2E 6C 79 2F 6D 78 5F 69 6E 66 6F }`` \
