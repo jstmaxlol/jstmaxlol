@@ -5,7 +5,7 @@
 |[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JM-💡](https://github.com/jmdash-devs/jmdash)|
 |[twitter🐤](https://twitter.com/maxwasntaken)|[paypal Donations💟](https://bit.ly/mx_donate)|[SSIRewritten🔥](https://github.com/MaxWasTakenYT/SpicetifySemiautomaticInstaller)|
 
-## programming languages i know🔭 
+## programming Languages I Know🔭 
 |language Name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
 |JM-😶‍🌫️|I created it myself so.. [check it out!😶‍🌫️](https://github.com/jmdash-devs/jmdash)|
