@@ -41,3 +41,4 @@ short-form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
 
 ## extraS🤓
 * [my custom keyboard layout](https://raw.githubusercontent.com/MaxWasTakenYT/MaxWasTakenYT/refs/heads/main/jM!'s%20CkL2.ahk)
+* i use arch, btw
