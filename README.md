@@ -35,7 +35,7 @@
 |English🇬🇧|high Level - secondary Language|
 
 ## digital Signature / PGP Public Key✒️
-full-form: ``{ jstmax! } @ { 62 69 74 2E 6C 79 2F 6D 78 5F 69 6E 66 6F }`` \
+long-form: ``{ jstmax! } @ { 62 69 74 2E 6C 79 2F 6D 78 5F 69 6E 66 6F }`` \
 short-form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
 [pgp public key](https://raw.githubusercontent.com/MaxWasTakenYT/MaxWasTakenYT/main/jmPGP%20-%20pub.asc)
 
