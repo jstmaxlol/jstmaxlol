@@ -10,7 +10,6 @@
 ## programming Languages I Know🔭 
 |language Name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
-|JM-😶‍🌫️|I created it myself so.. [check it out!😶‍🌫️](https://github.com/jmdash-devs/jmdash)|
 |C++💟|High, still studying, main language💟|
 |C#🌠|Medium-high, Stopped studying, for now🌠|
 |HTML👍|~High, stopped studying👍|
@@ -19,6 +18,7 @@
 |Python🌠|~Very high, finished studying, ex-main language🌠|
 |Java❎|Low, fuck java (for now)❎|
 |Bash👍|~Medium, stopped studying👍|
+<!-- |JM-😶‍🌫️|I created it myself so.. [check it out!😶‍🌫️](https://github.com/jmdash-devs/jmdash)| // Removed temporarily, when JM- will be finished, I'll proudly put this back there-->
 
 ## emoji Legend🌟:
 💟: Love it / Main programming language \
