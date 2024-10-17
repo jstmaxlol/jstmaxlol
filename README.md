@@ -3,7 +3,7 @@
 |social Networks🌐|support Me💖|projects I'm Working On⚙️|
 |-|-|-|
 |[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JM-💡](https://github.com/jmdash-devs/jmdash)|
-|[twitter🐤](https://twitter.com/maxwasntaken)|[paypal Donations💟](https://bit.ly/mx_donate)|[JMLT📦](https://github.com/MaxWasTakenYT/jmlt)|
+|[twitter🐤](https://twitter.com/maxwasntaken)|[paypal Donations💟](https://bit.ly/mx_donate)|[every repo with 3 or less letters💀](https://github.com/MaxWasTakenYT?tab=repositories)|
 |[spotify🎵](https://bit.ly/mx_sptfy)|(empty)|[CLI Program Templates🍵](https://github.com/MaxWasTakenYT/cliProgramTemplates)|
 |[discord💿](https://discord.com/users/714471585221836870)|(empty)|(empty)|
 
