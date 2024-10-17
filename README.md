@@ -40,6 +40,7 @@ short-form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
 [pgp public key](https://raw.githubusercontent.com/MaxWasTakenYT/MaxWasTakenYT/main/jmPGP%20-%20pub.asc)
 
 ## extraS🤓
+* [jstmax!'s warning system](https://github.com/MaxWasTakenYT/MaxWasTakenYT/blob/main/jstmax!'s%20%5Bwarning%5D%20system.md)
 * [my custom keyboard layout](https://raw.githubusercontent.com/MaxWasTakenYT/MaxWasTakenYT/refs/heads/main/jM!'s%20CkL2.ahk)
 * i use arch, btw
 * i use hyprland, btw
