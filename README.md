@@ -1,6 +1,6 @@
 ![!aUniBanner](https://github.com/user-attachments/assets/970b8cfa-e297-4195-8e99-8d217f3d5b5e)
 
-|social Networks🌐|support Me💖|projects I'm Working On⚙️|
+|social Networks🌐|support Me💖|working On⚙️|
 |-|-|-|
 |[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JM-💡](https://github.com/jmdash-devs/jmdash)|
 |[twitter🐤](https://twitter.com/maxwasntaken)|[paypal Donations💟](https://bit.ly/mx_donate)|[XSC🧮](https://github.com/MaxWasTakenYT/XSC)|
