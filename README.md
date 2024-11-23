@@ -11,11 +11,13 @@
 |language Name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
 |C++💟|High, still studying, main language💟|
+|C✅|High, still studying✅|
 |C#🌠|Medium-high, Stopped studying, for now🌠|
 |HTML👍|~High, stopped studying👍|
 |CSS✅|High, still studying✅|
 |JavaScript🌠|Medium, dropped but sporadically learn new stuff🌠|
-|Python🌠|~Very high, finished studying, ex-main language🌠|
+|Go👍|Medium, stopped studying👍|
+|Python🌠|~High, finished studying, ex-main language🌠|
 |Java❎|Low, fuck java (for now)❎|
 |Bash👍|~Medium, stopped studying👍|
 <!-- |JM-😶‍🌫️|I created it myself so.. [check it out!😶‍🌫️](https://github.com/jmdash-devs/jmdash)| // Removed temporarily, when JM- will be finished, I'll proudly put this back there-->
