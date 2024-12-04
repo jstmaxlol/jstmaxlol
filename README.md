@@ -4,8 +4,8 @@
 |-|-|-|
 |[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JM-💡](https://github.com/jmdash-devs/jmdash)|
 |[twitter🐤](https://twitter.com/maxwasntaken)|[paypal Donations💟](https://bit.ly/mx_donate)|[XSC🧮](https://github.com/jstmaxlol/XSC)|
-|[spotify🎵](https://bit.ly/mx_sptfy)|[susbribe🥰🤪](https://youtube.com/@jstmaxlol)|[CLI Program Templates🍵](https://github.com/jstmaxlol/cliProgramTemplates)|
-|[discord💿](https://discord.com/users/714471585221836870)|(empty)|(empty)|
+|[spotify🎵](https://bit.ly/mx_sptfy)|[susbribe🥰🤪](https://youtube.com/@jstmaxlol)|[ecah-lib💊](https://github.com/jstmaxlol/ecah-lib)|
+|[discord💿](https://discord.com/users/714471585221836870)|(empty)|[CLI Program Templates🍵](https://github.com/jstmaxlol/cliProgramTemplates)|
 
 ## programming Languages I Know🔭 
 |language Name📝|📚L.O.K. Level Of Knowledge|
