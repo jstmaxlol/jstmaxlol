@@ -16,18 +16,18 @@
 
 # create working directory - 
 sudo mkdir ~/.jmtemp
-export jmtemp='~/.jmtemp/'
+export jmtemp='~/.jmtemp'
 
 ## move to working dir
 cd $jmtemp
 
 ### install pacman packages
-sudo wget -P $jmtemp https://github.com/jstmaxlol/jstmaxlol/raw/refs/heads/main/towget/jm_pkgs_list.txt
+sudo wget -P $jmtemp/ https://github.com/jstmaxlol/jstmaxlol/raw/refs/heads/main/towget/jm_pkgs_list.txt
 sudo pacman -Sy --noconfirm --needed - < $jmtemp/jm_pkgs_list.txt
 
 #### do! instead of gcc/g++
-sudo wget -P $jmtemp https://github.com/jstmaxlol/ecah-lib/raw/refs/heads/main/examples/do.cpp
-sudo wget -P $jmtemp https://github.com/jstmaxlol/ecah-lib/raw/main/ecah-lib.h
+sudo wget -P $jmtemp/ https://github.com/jstmaxlol/ecah-lib/raw/refs/heads/main/examples/do.cpp
+sudo wget -P $jmtemp/ https://github.com/jstmaxlol/ecah-lib/raw/main/ecah-lib.h
 sudo g++ -o do $jmtemp/do.cpp
 sudo cp $jmtemp/do /usr/bin/do
 sudo chmod +x /usr/bin/do
@@ -41,12 +41,12 @@ sudo wget -P ~/.config/fish/functions/ https://github.com/jstmaxlol/jstmaxlol/ra
 
 ####### install my scheiBe from github
 ####### xsc
-sudo wget -P $jmtemp https://github.com/jstmaxlol/XSC/raw/main/xsc.cpp
+sudo wget -P $jmtemp/ https://github.com/jstmaxlol/XSC/raw/main/xsc.cpp
 sudo g++ -o xsc $jmtemp/xsc.cpp
 sudo cp $jmtemp/xsc /usr/bin/xsc
 sudo chmod +x /usr/bin/xsc
 ######## lsd
-sudo wget -P $jmtemp https://github.com/jstmaxlol/LSD/raw/main/lsd.sh
+sudo wget -P $jmtemp/ https://github.com/jstmaxlol/LSD/raw/main/lsd.sh
 sudo cp $jmtemp/lsd.sh /usr/bin/lsd
 sudo chmod +x /usr/bin/lsd
 
