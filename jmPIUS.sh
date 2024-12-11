@@ -15,7 +15,7 @@
 
 
 # create working directory - 
-sudo mkdir ~/.jmtemp
+sudo mkdir ~/.jmtemp/
 export jmtemp='~/.jmtemp'
 
 ## move to working dir
