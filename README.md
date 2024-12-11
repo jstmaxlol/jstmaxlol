@@ -44,7 +44,7 @@ short-form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
 ## extraS🤓
 * [jstmax!'s warning system](https://github.com/jstmaxlol/jstmaxlol/blob/main/jstmax!'s%20%5Bwarning%5D%20system.md)
 * [my custom keyboard layout](https://raw.githubusercontent.com/jstmaxlol/jstmaxlol/refs/heads/main/jM!'s%20CkL2.ahk)
-* [my custom fish_prompt](https://github.com/jstmaxlol/jstmaxlol/raw/main/jstmax_fish_prompt.fish)
+* [my custom fish_prompts](https://github.com/jstmaxlol/jstmaxlol/raw/main/jstmax_fish_prompts.fish)
 * i use arch, btw
 * i use hyprland, btw
 * i use the same stuff on my laptop, btw
