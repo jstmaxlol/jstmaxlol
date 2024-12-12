@@ -13,7 +13,7 @@
 ##########_/ |___/\__|_| |_| |_|\__,_/_/\_(_)
 #########|__/
 #######
-###### jstmax!'s P.I.U.S. (or jmPostInstallationUtilityScript)
+###### jstmax!'s P.I.U.S. | jstmax!'s Post Installation Utility Script Part 1/2 (piusAuto)
 ##### written by jstmax! (for personal use)
 #### ========================================================
 ### [n]otes
@@ -59,7 +59,10 @@ sudo chmod +x /usr/bin/lsd
 ######### add custom ~/.vimrc
 sudo wget -P ~/ https://github.com/jstmaxlol/jstmaxlol/raw/main/.vimrc
 
-########## final bye bye message and notif :3
+########## install yay!
+cd ~ && sudo pacman -S --needed --noconfirm git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+########### final bye bye message and notif :3
 echo "[n!a]     dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ###### 1
 echo "[n!aa]        dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ##### 2
 echo "[n!aaa]           dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" #### 3
