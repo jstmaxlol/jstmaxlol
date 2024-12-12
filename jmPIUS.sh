@@ -29,7 +29,7 @@ cd ~/.jmtemp/
 
 ### install pacman packages
 sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/jstmaxlol/raw/refs/heads/main/towget/jm_pkgs_list.txt
-sudo pacman -Sy --noconfirm - < ~/.jmtemp/jm_pkgs_list.txt
+sudo pacman -Syu --noconfirm $(cat ~/.jmtemp/jm_pkgs_list.txt)
 
 #### do! instead of gcc/g++
 sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/ecah-lib/raw/refs/heads/main/examples/do.cpp
