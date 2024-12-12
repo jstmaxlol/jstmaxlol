@@ -28,7 +28,7 @@ sudo mkdir ~/.jmtemp/
 cd ~/.jmtemp/
 
 ### install pacman packages
-sudo wget ~/.jmtemp/ https://github.com/jstmaxlol/jstmaxlol/raw/refs/heads/main/towget/jm_pkgs_list.txt
+sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/jstmaxlol/raw/refs/heads/main/towget/jm_pkgs_list.txt
 sudo pacman -Sy --noconfirm --needed - < ~/.jmtemp/jm_pkgs_list.txt
 
 #### do! instead of gcc/g++
