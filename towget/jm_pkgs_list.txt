@@ -81,8 +81,6 @@ exempi
 exiv2
 exo
 expat
-fakeroot-tcp
-fakeroot-tcp-debug
 fastfetch
 ffmpeg
 fftw
@@ -183,8 +181,6 @@ highway
 htop
 hwdata
 hyphen
-hypr-git
-hypr-git-debug
 hyprcursor
 hyprland
 hyprlang
@@ -680,8 +676,6 @@ weston
 wget
 which
 wireplumber
-wlogout
-wlogout-debug
 wlr-randr
 wlroots
 woff2
@@ -764,8 +758,6 @@ xorgproto
 xvidcore
 xxhash
 xz
-yay
-yay-debug
 yyjson
 zenity
 zeromq
