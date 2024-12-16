@@ -5,22 +5,23 @@
 |[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JM-💡](https://github.com/jmdash-devs/jmdash)|
 |[twitter🐤](https://twitter.com/maxwasntaken)|[paypal Donations💟](https://bit.ly/mx_donate)|[XSC🧮](https://github.com/jstmaxlol/XSC)|
 |[spotify🎵](https://bit.ly/mx_sptfy)|[susbribe🥰🤪](https://youtube.com/@jstmaxlol)|[ecah-lib💊](https://github.com/jstmaxlol/ecah-lib)|
-|[discord💿](https://discord.com/users/714471585221836870)|(empty)|[CLI Program Templates🍵](https://github.com/jstmaxlol/cliProgramTemplates)|
+|[discord💿](https://discord.com/users/714471585221836870)|[lainHost - wip!💻](https://lainhost.ct.ws)|[CLI Program Templates🍵](https://github.com/jstmaxlol/cliProgramTemplates)|
 
-## programming Languages I Know🔭 
+## programming Languages I Know🔭
 |language Name📝|📚L.O.K. Level Of Knowledge|
 |-|-|
 |C++💟|High, still studying, main language💟|
 |C✅|High, still studying✅|
-|C#🌠|Medium-high, Stopped studying, for now🌠|
 |HTML👍|~High, stopped studying👍|
 |CSS✅|High, still studying✅|
-|JavaScript🌠|Medium, dropped but sporadically learn new stuff🌠|
-|Go👍|Medium, stopped studying👍|
 |Python🌠|~High, finished studying, ex-main language🌠|
 |Java❎|Low, fuck java (for now)❎|
-|Bash👍|~Medium, stopped studying👍|
-<!-- |JM-😶‍🌫️|I created it myself so.. [check it out!😶‍🌫️](https://github.com/jmdash-devs/jmdash)| // Removed temporarily, when JM- will be finished, I'll proudly put this back there-->
+
+<!-- :: languages i almost never use and/or i don't really like
+|C#🌠|Medium-high, Stopped studying, for now🌠|
+|JavaScript🌠|Medium, dropped but sporadically learn new stuff🌠|
+|Go👍|Medium, stopped studying👍|
+-->
 
 ## emoji Legend🌟:
 💟: Love it / Main programming language \
@@ -48,3 +49,4 @@ short-form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
 * i use arch, btw
 * i use hyprland, btw
 * i use the same stuff on my laptop, btw
+* note: i removed languages i almost never use and/or don't like from the pLIK section, you can find them commented in my README.md's code
