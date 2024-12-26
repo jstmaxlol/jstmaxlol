@@ -2,7 +2,7 @@
 
 |social Networks|support Me|working On|
 |-|-|-|
-|[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JM-💡](https://github.com/jmdash-devs/jmdash)|
+|[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JMd REBORN💡](https://github.com/jstmaxlol/jmdr)|
 |[twitter🐤](https://twitter.com/maxwasntaken)|[paypal Donations💟](https://bit.ly/mx_donate)|[XSC🧮](https://github.com/jstmaxlol/XSC)|
 |[spotify🎵](https://bit.ly/mx_sptfy)|[susbribe🥰🤪](https://youtube.com/@jstmaxlol)|[ecah-lib💊](https://github.com/jstmaxlol/ecah-lib)|
 |[discord💿](https://discord.com/users/714471585221836870)|[lainHost - wip!💻](https://lainhost.ct.ws)|[CLI Program Templates🍵](https://github.com/jstmaxlol/cliProgramTemplates)|
