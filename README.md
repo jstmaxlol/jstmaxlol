@@ -44,7 +44,7 @@ short-Form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
 * [jstmax!'s Warning System](https://github.com/jstmaxlol/jstmaxlol/blob/main/jstmax!'s%20%5Bwarning%5D%20system.md)
 * [my Custom Keyboard Layout](https://raw.githubusercontent.com/jstmaxlol/jstmaxlol/refs/heads/main/jM!'s%20CkL2.ahk)
 * [my Custom Fish_Prompts](https://github.com/jstmaxlol/jstmaxlol/raw/main/jstmax_fish_prompts.fish)
-* i Use Arch, BTW
-* i Use Hyprland, BTW
-* i Use The Same Stuff On My Laptop, BTW
+* i use Arch, BTW
+* i use Hyprland, BTW
+* i use the same stuff on my Laptop, BTW
 * note: i removed languages i almost never use and/or don't like from the pLIK section, you can find them commented in my README.md's code
