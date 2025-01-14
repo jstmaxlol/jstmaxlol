@@ -27,7 +27,7 @@
 ✅: like It / still Studying \
 🌠: dropped (e.g. due To Lack Of Interest) / ex-Fav/Main Programming Language \
 👍: stopped Studying \
-❎: hate it \
+❎: hate it
 <!-- 😶‍🌫️: i Created It.. -->
 
 ## > languages I Know ` ヾ(≧▽≦*)o `
