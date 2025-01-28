@@ -68,7 +68,7 @@ sudo rm -rv ~/.jmtemp/
 #  #  #  #  #
 echo -e "\n\n\n\n\n>> >> >> don't forget to quickstart your hyprland cfg with \"mylinuxforwork/hyprland-starter\" << << <<\n"
 read -p "run hyprland-starter install script? (y/n): " answ
-if [ answ = 'y' ]; then
+if [ $answ = 'y' ]; then
   echo -e "\n\n\n> running install script ..\n\n"
   bash <(curl -s https://raw.githubusercontent.com/mylinuxforwork/hyprland-starter/main/setup.sh)
 else
