@@ -29,7 +29,7 @@ cd ~/.jmtemp/
 
 ### install pacman packages
 sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/jstmaxlol/raw/refs/heads/main/towget/jm_pkgs_list.txt
-sudo pacman -Syu --noconfirm $(cat ~/.jmtemp/jm_pkgs_list.txt)
+grep -v '^#' ~/.jmtemp/jm_pkgs_list.txt | tr -d '\r' | xargs sudo pacman -Syu --noconfirm
 
 ####
 ##### make fish the default shell
