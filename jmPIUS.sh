@@ -51,11 +51,7 @@ sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/XSC/raw/main/xsc.cpp
 sudo g++ -o xsc ~/.jmtemp/xsc.cpp
 sudo cp ~/.jmtemp/xsc /usr/bin/xsc
 sudo chmod +x /usr/bin/xsc
-######## lsd
-sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/LSD/raw/main/lsd.sh
-sudo cp ~/.jmtemp/lsd.sh /usr/bin/lsd
-sudo chmod +x /usr/bin/lsd
-
+########
 ######### add custom ~/.vimrc
 sudo wget -P ~/ https://github.com/jstmaxlol/jstmaxlol/raw/main/.vimrc
 
