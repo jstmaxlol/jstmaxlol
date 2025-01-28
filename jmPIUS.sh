@@ -13,7 +13,7 @@
 ##########    _/ |___/\__|_| |_| |_|\__,_/_/\_(_)
 #########    |__/
 #######
-######       jstmax!'s P.I.U.S. | jstmax!'s Post Installation Utility Script Part 1/2 (piusAuto)
+######       jstmax!'s PIUS | jstmax!'s Post Installation Utility Script
 #####        written by jstmax! (for personal use)
 ####         ========================================================
 ###          [n]otes
