@@ -30,8 +30,7 @@ cd ~/.jmtemp/
 echo -e "\n\n\n> cding (moving) to working dir ..\n\n"
 
 ### install pacman packages
-sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/jstmaxlol/raw/refs/heads/main/towget/jm_pkgs_list.txt
-grep -v '^#' ~/.jmtemp/jm_pkgs_list.txt | tr -d '\r' | xargs sudo pacman -Syu --noconfirm
+sudo pacman -Syu --noconfirm base-devel cowsay figlet lolcat curl ffmpeg fastfetch fish vim gcc gnu-free-fonts ttf-ubuntu-font-family gnupg grep noto-fonts openssh tar
 echo -e "\n\n\n> installing pacman packages ..\n\n"
 
 ####
@@ -60,6 +59,10 @@ echo -e "\n\n\n> adding custom ~/.vimrc ..\n\n"
 echo -e "\n\n\n> installing yay - start..\n\n"
 cd ~ && sudo pacman -S --needed --noconfirm git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 echo -e "\n\n\n> installing yay - end.\n\n"
+
+# # # # # #
+echo -e "\n\n\n\n\n>> >> >> don't forget to quickstart your hyprland cfg with \"mylinuxforwork/hyprland-starter\" << << <<\n\n\n\n"
+# # # # # #
 
 ########### final bye bye message and notif :3
 echo "[n!a]     dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ###### 1
