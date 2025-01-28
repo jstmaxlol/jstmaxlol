@@ -6,19 +6,19 @@
 #####
 ######
 #######
-########    _     _                        _
-#########  (_)___| |_ _ __ ___   __ ___  _| |
-########## | / __| __| '_ ` _ \ / _` \ \/ / |
-###########| \__ \ |_| | | | | | (_| |>  <|_|
-##########_/ |___/\__|_| |_| |_|\__,_/_/\_(_)
-#########|__/
+########        _     _                        _
+#########      (_)___| |_ _ __ ___   __ ___  _| |
+##########     | / __| __| '_ ` _ \ / _` \ \/ / |
+###########    | \__ \ |_| | | | | | (_| |>  <|_|
+##########    _/ |___/\__|_| |_| |_|\__,_/_/\_(_)
+#########    |__/
 #######
-###### jstmax!'s P.I.U.S. | jstmax!'s Post Installation Utility Script Part 1/2 (piusAuto)
-##### written by jstmax! (for personal use)
-#### ========================================================
-### [n]otes
-## [n!1] i personally recommend you to run this script after freshly installing arch linux
-# [n!2] if you wanna use archinstall, select minimal installation
+######       jstmax!'s P.I.U.S. | jstmax!'s Post Installation Utility Script Part 1/2 (piusAuto)
+#####        written by jstmax! (for personal use)
+####         ========================================================
+###          [n]otes
+##           [n!1] i personally recommend you to run this script after freshly installing arch linux
+#            [n!2] if you wanna use archinstall, select minimal installation
 
 
 # create working directory - 
@@ -31,13 +31,7 @@ cd ~/.jmtemp/
 sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/jstmaxlol/raw/refs/heads/main/towget/jm_pkgs_list.txt
 sudo pacman -Syu --noconfirm $(cat ~/.jmtemp/jm_pkgs_list.txt)
 
-#### do! instead of gcc/g++
-sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/ecah-lib/raw/refs/heads/main/examples/do.cpp
-sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/ecah-lib/raw/main/ecah-lib.h
-sudo g++ -o do ~/.jmtemp/do.cpp
-sudo cp ~/.jmtemp/do /usr/bin/do
-sudo chmod +x /usr/bin/do
-
+####
 ##### make fish the default shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells && chsh -s /usr/local/bin/fish
 
@@ -45,7 +39,7 @@ echo /usr/local/bin/fish | sudo tee -a /etc/shells && chsh -s /usr/local/bin/fis
 sudo wget -P ~/.config/fish/functions/ https://github.com/jstmaxlol/jstmaxlol/raw/refs/heads/main/towget/fish_prompt.fish
 sudo wget -P ~/.config/fish/functions/ https://github.com/jstmaxlol/jstmaxlol/raw/refs/heads/main/towget/fish_right_prompt.fish
 
-####### install my scheiBe from github
+####### install some of my scheiBe from github
 ####### xsc
 sudo wget -P ~/.jmtemp/ https://github.com/jstmaxlol/XSC/raw/main/xsc.cpp
 sudo g++ -o xsc ~/.jmtemp/xsc.cpp
@@ -55,7 +49,7 @@ sudo chmod +x /usr/bin/xsc
 ######### add custom ~/.vimrc
 sudo wget -P ~/ https://github.com/jstmaxlol/jstmaxlol/raw/main/.vimrc
 
-########## install yay!
+########## install yay
 cd ~ && sudo pacman -S --needed --noconfirm git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 ########### final bye bye message and notif :3
