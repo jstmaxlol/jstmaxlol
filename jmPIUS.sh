@@ -61,18 +61,12 @@ cd ~ && sudo pacman -S --needed --noconfirm git base-devel && git clone https://
 echo -e "\n\n\n> installing yay - end.\n\n"
 
 # # # # # #
-echo -e "\n\n\n\n\n>> >> >> don't forget to quickstart your hyprland cfg with \"mylinuxforwork/hyprland-starter\" << << <<\n\n\n\n"
+echo -e "\n\n\n\n\n>> >> >> don't forget to quickstart your hyprland cfg with \"mylinuxforwork/hyprland-starter\" << << <<\n"
+read -p "run hyprland-starter install script? (y/n): " answ
+if [ answ = 'y' ]; then
+  echo -e "\n\n\n> running install script ..\n\n"
+  bash <(curl -s https://raw.githubusercontent.com/mylinuxforwork/hyprland-starter/main/setup.sh)
+else
+  echo -e "~>> ~>> ~>> ~>> do not forget to reboot your system!! <<~ <<~ <<~ <<~"
+fi
 # # # # # #
-
-########### final bye bye message and notif :3
-echo "[n!a]     dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ###### 1
-echo "[n!aa]        dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ##### 2
-echo "[n!aaa]           dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" #### 3
-echo "[n!aaaa]              dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ### 4
-echo "[n!aaaaa]                 dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ## 5
-echo "[n!aaaaaa]                    dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" # 6
-echo "[n!aaaaa]                 dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ## 5
-echo "[n!aaaa]              dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ### 4   
-echo "[n!aaa]           dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" #### 3
-echo "[n!aa]        dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ##### 2
-echo "[n!a]     dO nOT fORGET tO rEBOOT yOUR sYSTEM!!!!!!!!!!!" ###### 1
