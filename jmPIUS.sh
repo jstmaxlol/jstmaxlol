@@ -61,6 +61,11 @@ cd ~ && sudo pacman -S --needed --noconfirm git base-devel && git clone https://
 echo -e "\n\n\n> installing yay - end.\n\n"
 
 # # # # # #
+echo -e "\n\n\n> deleting working dir ..\n\n"
+sudo rm -rv ~/.jmtemp/
+# # # # # #
+
+#  #  #  #  #
 echo -e "\n\n\n\n\n>> >> >> don't forget to quickstart your hyprland cfg with \"mylinuxforwork/hyprland-starter\" << << <<\n"
 read -p "run hyprland-starter install script? (y/n): " answ
 if [ answ = 'y' ]; then
@@ -69,4 +74,4 @@ if [ answ = 'y' ]; then
 else
   echo -e "~>> ~>> ~>> ~>> do not forget to reboot your system!! <<~ <<~ <<~ <<~"
 fi
-# # # # # #
+#  #  #  #  #
