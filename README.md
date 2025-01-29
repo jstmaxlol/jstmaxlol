@@ -2,10 +2,10 @@
 
 |social Networks|support Me|working On|
 |-|-|-|
-|[linkTree🌲](https://bit.ly/mx_info)|[patreon💚](https://patreon.com/jstmax)|[JMdR🚩](https://github.com/jstmaxlol/jmdr)|
-|[twitter🐤](https://twitter.com/maxwasntaken)|[paypal Donations💟](https://bit.ly/mx_donate)|[XSC🧮](https://github.com/jstmaxlol/XSC)|
-|[spotify🎵](https://bit.ly/mx_sptfy)|[MOTD🗣️](https://jstmaxlol.github.io/motd/)|[salib💉](https://github.com/jstmaxlol/salib)|
-|[discord💿](https://discord.com/users/714471585221836870)|[lainHost - wip!💻](https://lainhost.ct.ws)|[CLI Program Templates🍵](https://github.com/jstmaxlol/cliProgramTemplates)|
+|[>linkTree](https://bit.ly/mx_info)|[patreon♡](https://patreon.com/jstmax)|[JMdR🚩](https://github.com/jstmaxlol/jmdr)|
+|[>twitter](https://twitter.com/maxwasntaken)|[paypal Donations♡](https://bit.ly/mx_donate)|[XSC🧮](https://github.com/jstmaxlol/XSC)|
+|[>spotify](https://bit.ly/mx_sptfy)|[MOTD🗣️](https://jstmaxlol.github.io/motd/)|[salib💉](https://github.com/jstmaxlol/salib)|
+|[>discord](https://discord.com/users/714471585221836870)|[lainHost - wip!💻](https://lainhost.ct.ws)|[ むなしい ]|
 
 ## > programming Languages I Know ` q(≧▽≦q) `
 |lang Name|knowledge Level|
@@ -34,7 +34,10 @@
 |>lang Name|>knowledge Level|
 |-|-|
 |Italian🇮🇹|native Language|
-|English🇬🇧|high Level - secondary Language|
+|English🇬🇧|high Level (C1) - secondary Language|
+|Japanese🇯🇵|low Level - currently studying ..|
+|German🇩🇪|plans to study ..|
+|Arabic[]|plans to study ..|
 
 ## > digital Signature / PGP Public Key ` ☆⌒(*＾-゜)v `
 short-Form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
