@@ -1,0 +1,16 @@
+#
+##  @jstmaxlol ghostty cfg
+### thanks to @mansoorbarri && @00-kat
+##
+#
+
+background-opacity = 0.8
+background-blur = true
+theme = Twilight
+cursor-style = block
+shell-integration-features = no-cursor
+window-padding-y = 3
+window-padding-x = 4
+window-height = 23
+window-width = 80
+window-save-state = never
