@@ -1,4 +1,4 @@
-![buBr - UUB](https://github.com/user-attachments/assets/647cc7c4-0efa-4caa-a0e6-c4706d8c2d8d)
+![neojm - banner](https://github.com/user-attachments/assets/aa339594-2246-4b88-8d6d-cef0ae32a52d)
 
 |social Networks|support Me|working On|
 |-|-|-|
