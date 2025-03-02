@@ -34,7 +34,7 @@
 |>lang Name|>knowledge Level|
 |-|-|
 |Italian🇮🇹|native Language|
-|English🇬🇧|high Level (C1) - secondary Language|
+|English🇬🇧|high Level - secondary Language|
 |Japanese🇯🇵|low Level - currently studying ..|
 |German🇩🇪|plans to study ..|
 |Arabic[]|plans to study ..|
