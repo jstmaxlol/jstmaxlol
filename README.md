@@ -3,8 +3,8 @@
 |social Networks|support Me|working On|
 |-|-|-|
 |[>linkTree](https://bit.ly/mx_info)|[patreon♡](https://patreon.com/jstmax)|[JMdR🚩](https://github.com/jstmaxlol/jmdr)|
-|[>twitter](https://twitter.com/maxwasntaken)|[paypal Donations♡](https://bit.ly/mx_donate)|[XSC🧮](https://github.com/jstmaxlol/XSC)|
-|[>spotify](https://bit.ly/mx_sptfy)|[>MOTD](https://jstmaxlol.github.io/motd/)|[salib💉](https://github.com/jstmaxlol/salib)|
+|[>twitter](https://twitter.com/maxwasntaken)|[paypal Donations♡](https://bit.ly/mx_donate)|[ むなしい ]|
+|[>spotify](https://bit.ly/mx_sptfy)|[>MOTD](https://jstmaxlol.github.io/motd/)|[ むなしい ]|
 |[>discord](https://discord.com/users/714471585221836870)|[>lainHost - wip!](https://lainhost.ct.ws)|[ むなしい ]|
 
 ## > programming Languages I Know ` q(≧▽≦q) `
