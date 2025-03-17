@@ -1,4 +1,4 @@
-![neojm - banner](https://github.com/user-attachments/assets/aa339594-2246-4b88-8d6d-cef0ae32a52d)
+![neojm_konna_banner](https://github.com/user-attachments/assets/651357f5-ed85-4e07-ae0e-eec74d5f1081)
 
 |social Networks|support Me|working On|
 |-|-|-|
