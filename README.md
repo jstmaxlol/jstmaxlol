@@ -51,4 +51,4 @@ short-Form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
 * i use Hyprland, BTW
 * i use the same stuff on my Laptop, BTW
 * note: i removed languages i almost never use and/or don't like from the pLIK section, you can find them commented in my README.md's code
-* must-know about me (or really not): i love a lot of genres (music), a lot of edm & rave subgenres, hip-hop and even jazz o(*≧▽≦)ツ
+* must-know about me (or really not): i love a lot of genres (music), a lot of edm & rave subgenres, hip-hop and even jazz - if you're intersted, go check out my spotify playlist!!! o(*≧▽≦)ツ
