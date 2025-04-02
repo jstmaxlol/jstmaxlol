@@ -14,7 +14,7 @@
 |C✅|med-High, Still Studying|
 |HTML👍|med, Stopped Studying|
 |CSS✅|med, Still Studying|
-|JS📑|fundamentals, Currently Studying|
+|JS+TS📑|fundamentals, Currently Studying|
 |Java❌|low, Fuck Java (for Now)|
 
 <!-- :: languages i almost never use and/or i don't really like
