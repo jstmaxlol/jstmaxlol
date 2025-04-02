@@ -10,11 +10,12 @@
 ## > programming Languages I Know ` q(≧▽≦q) `
 |lang Name|knowledge Level|
 |-|-|
-|C++💟|~high, Main Language|
+|C++💟|high and ++ing!, Main Language|
 |C✅|med-High, Still Studying|
-|HTML👍|~high, Stopped Studying|
-|CSS✅|high, Still Studying|
-|Java❎|low, Fuck Java (for Now)|
+|HTML👍|med, Stopped Studying|
+|CSS✅|med, Still Studying|
+|JS📑|fundamentals, Currently Studying|
+|Java❌|low, Fuck Java (for Now)|
 
 <!-- :: languages i almost never use and/or i don't really like
 |C#🌠|Medium-high, Stopped studying, for now🌠|
@@ -27,7 +28,8 @@
 ✅: like It / still Studying \
 🌠: dropped (e.g. due To Lack Of Interest) / ex-Fav/Main Programming Language \
 👍: stopped Studying \
-❎: hate it
+📑: studying .. \
+❌: hate it
 <!-- 😶‍🌫️: i Created It.. -->
 
 ## > languages I Know ` ヾ(≧▽≦*)o `
