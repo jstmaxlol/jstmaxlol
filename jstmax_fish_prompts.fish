@@ -1,6 +1,6 @@
 # fish_prompt
 function fish_prompt
-    if test "$PWD" = "/home/maxlol"
+    if test "$PWD" = "/home/max" # change max with your username :3
       echo -e (set_color green)$USER(set_color white)"@"(set_color green)"~"(set_color white)" :: "
     else
       echo -e (set_color green)$USER(set_color white)"@"(set_color green)$PWD(set_color white)" :: "
