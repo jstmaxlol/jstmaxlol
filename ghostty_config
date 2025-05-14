@@ -1,19 +1,19 @@
 #
-##  @jstmaxlol ghostty cfg
-### thanks to @mansoorbarri && @00-kat
-##
+##          @jstmaxlol / ceez2exzt's ghostty config - v2 bc i spaced it cooler xd
+###         thanks to:
+##          @mansoorbarri, 00-kat & ghostty's documentation
 #
 
-background-opacity = 0.7
-background-blur = true
-theme = Pnevma
-cursor-style = block
-cursor-style-blink = false
-cursor-invert-fg-bg = true
+background-opacity         = 0.7
+background-blur            = true # doesn't work on wayland, at least for me ig
+theme                      = Pnevma
+cursor-style               = block
+cursor-style-blink         = false
+cursor-invert-fg-bg        = true
 shell-integration-features = no-cursor
-window-padding-y = 3
-window-padding-x = 4
-window-height = 23
-window-width = 80
-window-save-state = never
-window-theme = dark
+window-padding-y           = 3
+window-padding-x           = 4
+window-height              = 23
+window-width               = 80
+window-save-state          = never
+window-theme               = dark
