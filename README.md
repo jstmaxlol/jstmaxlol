@@ -1,58 +1,59 @@
-<!-- i am currently rewriting the entire README because i really started to like ascii graphics and so.. yeah -->
-
 ![neojm_konna_banner](https://github.com/user-attachments/assets/651357f5-ed85-4e07-ae0e-eec74d5f1081)
+```
+   _     _                        _ 
+  (_)___| |_ _ __ ___   __ ___  _| | ::> gfx designer && software dev (‾◡◝)//
+  | / __| __| '_ ` _ \ / _` \ \/ / | ☆ bit.ly/mx_info          ☆
+  | \__ \ |_| | | | | | (_| |>  <|_| ☆ ex/vi/vim/nvim enjoyer  ☆
+ _/ |___/\__|_| |_| |_|\__,_/_/\_(_)
+|__/
 
-|social Networks|support Me|working On|
-|-|-|-|
-|[>linkTree](https://bit.ly/mx_info)|[patreon♡](https://patreon.com/jstmax)|[ むなしい ]|
-|[>twitter](https://twitter.com/maxwasntaken)|[paypal Donations♡](https://bit.ly/mx_donate)|[ むなしい ]|
-|[>spotify](https://bit.ly/mx_sptfy)|[>MOTD](https://jstmaxlol.github.io/motd/)|[ むなしい ]|
-|[>discord](https://discord.com/users/714471585221836870)|[>lainHost - wip!](https://lainhost.ct.ws)|[ むなしい ]|
+===============================================================================
+::> social networks ( ﹁ ﹁ ) ~→
+- linktree -> bit.ly/mx_info
+- twitter  -> @maxwasntaken
+- spotify  -> bit.ly/mx_sptfy
+- discord  -> @jstmaxlol
+===============================================================================
+::> support me w(ﾟДﾟ)w
+- patreon  ♡♡ patreon.com/jstmax
+- paypal   ♡♡ bit.ly/mx_donate
+- MOTD     -> jstmaxlol.github.io/motd
+- lainHost -> lainhost.ct.ws
+::> projects i'm working on
+- [空しい]
+===============================================================================
+::> programming languages (っ °Д °;)っ
+- C++ (my most comfortable language)
+- C
+- HTML/CSS
+- JavaScript/TypeScript
+===============================================================================
+::> languages i speak ヾ(≧▽≦*)o
+italian  -> native
+english  -> almost native level
+japanese -> studying
+german   -> plans to study
+arabic   -> plans to study
+===============================================================================
+           _                   _          __  __
+  _____  _| |_ _ __ __ _   ___| |_ _   _ / _|/ _|
+ / _ \ \/ / __| '__/ _` | / __| __| | | | |_| |_
+|  __/>  <| |_| | | (_| | \__ \ |_| |_| |  _|  _|
+ \___/_/\_\\__|_|  \__,_| |___/\__|\__,_|_| |_|
 
-## ::> programming Languages I Know ` q(≧▽≦q) `
-|lang Name|knowledge Level|
-|-|-|
-|C++💟|high and ++ing!, main language (the one i am most comfortable with)|
-|C✅|med-High, still studying|
-|HTML👍|med, currently studying|
-|CSS✅|med, currently studying|
-|JS/TS📑|fundamentals, currently studying|
-|Java❌|low, fuck java|
-
-<!-- here are some languages i almost never use and/or i don't really like
-|C#🌠|Medium-high, Stopped studying, for now🌠|
-|Go👍|Medium, stopped studying👍|
--->
-
-## ::> emoji Legend ` (っ °Д °;)っ `
-💟: love it / favourite/main programming language \
-✅: like it / still studying \
-🌠: dropped (e.g. due to lack_of_interest) / ex-favourite/main programming language \
-👍: stopped studying \
-📑: studying .. \
-❌: hate it
-<!-- 😶‍🌫️: i created it.. -->
-
-## ::> languages I Know ` ヾ(≧▽≦*)o `
-|>lang Name|>knowledge Level|
-|-|-|
-|Italian🇮🇹|native Language|
-|English🇬🇧|high Level - secondary Language|
-|Japanese🇯🇵|low Level - currently studying ..|
-|German🇩🇪|plans to study ..|
-|Arabic[]|plans to study ..|
-
-## ::> hex Signature / PGP_Public_Key ` ☆⌒(*＾-゜)v `
-short-Form: ``jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F`` \
-[pgp Public Key (link)](https://raw.githubusercontent.com/jstmaxlol/jstmaxlol/main/jmPGP%20-%20pub.asc)
-
-## ::> extra ` d=====(￣▽￣*)b `
-* [jstmax!'s Warning System](https://github.com/jstmaxlol/jstmaxlol/blob/main/jstmax!'s%20%5Bwarning%5D%20system.md)
-* [my Custom Keyboard Layout](https://raw.githubusercontent.com/jstmaxlol/jstmaxlol/refs/heads/main/jM!'s%20CkL2.ahk)
-* [my Custom Fish_Prompts](https://github.com/jstmaxlol/jstmaxlol/raw/main/jstmax_fish_prompts.fish)
-* [my vscode cfg](https://github.com/jstmaxlol/jstmaxlol/raw/main/jm_cz2ex.code-profile)
-* i use Arch, BTW
-* i use Hyprland, BTW
-* i use the same stuff on my Laptop, BTW
-* note: i removed languages i almost never use and/or don't like from the pLIK section, you can find them commented in my README.md's code
-* must-know about me (or really not): i love a lot of genres (music), a lot of edm & rave subgenres, hip-hop and even jazz - if you're intersted, go check out my spotify playlist!!! o(*≧▽≦)ツ
+===============================================================================
+- hex signature  = jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F
+- PGP public key = github.com/jstmaxlol/jstmaxlol/blob/main/jmPGP - pub.asc
+===============================================================================
+- jstmax!'s [w!] design  -> github.com/jstmaxlol/jstmaxlol/blob/main/jstmax!'s [warning] system.md
+- custom keyboard layout -> github.com/jstmaxlol/jstmaxlol/blob/main/jM!'s CkL2.ahk
+- custom fish_prompts    -> github.com/jstmaxlol/jstmaxlol/blob/main/jstmax_fish_prompts.fish
+- my vscode cfg          -> github.com/jstmaxlol/jstmaxlol/blob/main/jm_cz2ex.code-profile
+===============================================================================
+- i use Arch, BTW
+- i use Hyprland, BTW
+- i use the same stuff on my Laptop, BTW
+- i am still dual-booting windows on my pc, BTW
+===============================================================================
+- a must-know about me (or really not) is that: i love a lot of music genres, a lot of edm & rave/acid subgenres, hip-hop, punk, ska and even jazz - if you're interested, go check out my spotify playlist!
+```
