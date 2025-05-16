@@ -55,5 +55,7 @@ arabic   -> plans to study
 - i use the same stuff on my Laptop, BTW
 - i am still dual-booting windows on my pc, BTW
 ===============================================================================
-- a must-know about me (or really not) is that: i love a lot of music genres, a lot of edm & rave/acid subgenres, hip-hop, punk, ska and even jazz - if you're interested, go check out my spotify playlist!
+- a must-know about me (or really not) is that: i love a lot of music genres,
+  a lot of edm & rave/acid subgenres, hip-hop, punk, ska and even jazz
+  if you're interested, go check out my spotify playlist!
 ```
