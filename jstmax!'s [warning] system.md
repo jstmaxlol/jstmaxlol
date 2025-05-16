@@ -1,3 +1,5 @@
+# outdated, i don't really use this system anymore but i won't delete it for archival's sake
+
 # jstmax!'s [w!] system
 what is this? \
 basically: in my CLI programs, I use my own warning system to warn (wow) the user about stuff that happens \
