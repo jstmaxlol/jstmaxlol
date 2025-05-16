@@ -45,7 +45,7 @@ arabic   -> plans to study
 - hex signature  = jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F
 - PGP public key = github.com/jstmaxlol/jstmaxlol/blob/main/jmPGP - pub.asc
 ===============================================================================
-- jstmax!'s [w!] design  -> github.com/jstmaxlol/jstmaxlol/blob/main/jstmax!'s [warning] system.md
+::> a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
 - custom keyboard layout -> github.com/jstmaxlol/jstmaxlol/blob/main/jM!'s CkL2.ahk
 - custom fish_prompts    -> github.com/jstmaxlol/jstmaxlol/blob/main/jstmax_fish_prompts.fish
 - my vscode cfg          -> github.com/jstmaxlol/jstmaxlol/blob/main/jm_cz2ex.code-profile
