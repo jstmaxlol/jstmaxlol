@@ -1,9 +1,16 @@
 # fish_prompt
 function fish_prompt
-    if test "$PWD" = "/home/max" # change max with your username :3
-      echo -e (set_color green)$USER(set_color white)"@"(set_color green)"~"(set_color white)" :: "
+    set -l user (set_color green)$USER(set_color white)"@"
+    set -l cwd $PWD
+    set -l home $HOME
+
+    if test "$cwd" = "$home"
+        echo -e "$user"(set_color green)"~"(set_color white)" ::> "
+    else if string match -q "$home/*" $cwd
+        set -l relative (string replace "$home/" "~/"$cwd)
+        echo -e "$user"(set_color green)$relative(set_color white)" ::> "
     else
-      echo -e (set_color green)$USER(set_color white)"@"(set_color green)$PWD(set_color white)" :: "
+        echo -e "$user"(set_color green)$cwd(set_color white)" ::> "
     end
 end
 
