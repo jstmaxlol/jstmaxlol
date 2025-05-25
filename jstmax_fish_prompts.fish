@@ -7,7 +7,7 @@ function fish_prompt
     if test "$cwd" = "$home"
         echo -e "$user"(set_color green)"~"(set_color white)" ::> "
     else if string match -q "$home/*" $cwd
-        set -l relative (string replace "$home/" "~/"$cwd)
+        set -l relative (string replace "$home/" "~/" $cwd)
         echo -e "$user"(set_color green)$relative(set_color white)" ::> "
     else
         echo -e "$user"(set_color green)$cwd(set_color white)" ::> "
