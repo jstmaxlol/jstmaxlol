@@ -1,4 +1,6 @@
-![neojm_konna_banner](https://github.com/user-attachments/assets/651357f5-ed85-4e07-ae0e-eec74d5f1081)
+<!-- ![neojm_konna_banner](https://github.com/user-attachments/assets/651357f5-ed85-4e07-ae0e-eec74d5f1081) -->
+<img width="3840" height="960" alt="_konnaJM bg" src="https://github.com/user-attachments/assets/29051f3c-4a53-4dc0-a7c6-76c7c15f1799" />
+
 ```
    _     _                        _ 
   (_)___| |_ _ __ ___   __ ___  _| | ::> gfx designer && software dev (‾◡◝)//
