@@ -22,10 +22,7 @@
 - MOTD     -> jstmaxlol.github.io/motd
 - lainHost -> lainhost.ct.ws
 ::> projects i'm working on
-- no big projects coming up, recently i have been chilling and
-  writing some simple c++ cli utilities (e.g. xsc3, abc)
-  but other than those, not much
-- so still「空しい」
+currently leading development of the REBORN programming language, link: github.com/reborn-lang/
 ===============================================================================
 ::> programming languages (っ °Д °;)っ
 - C++ (my most comfortable language)
