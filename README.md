@@ -25,17 +25,18 @@
 currently leading development of the REBORN programming language, link: github.com/reborn-lang/
 ===============================================================================
 ::> programming languages (っ °Д °;)っ
-- C++ (my most comfortable language)
+- C++ (my most comfortable language, ironic since i dislike OOP)
 - C
-- HTML/CSS
+- Python
+- HTML/CSS | not programming languages but i am not making another category just for these fuckers
 - JavaScript/TypeScript
 ===============================================================================
 ::> languages i speak ヾ(≧▽≦*)o
 italian  -> native
-english  -> almost native level
+english  -> write and speak fluently - i do not usually speak english so my pronounce may not be the snappiest
 japanese -> studying
 german   -> plans to study
-arabic   -> plans to study
+russian  -> plans to study
 ===============================================================================
            _                   _          __  __
   _____  _| |_ _ __ __ _   ___| |_ _   _ / _|/ _|
@@ -57,7 +58,7 @@ arabic   -> plans to study
 - i use the same stuff on my Laptop, BTW
 - i am still dual-booting windows on my pc, BTW
 ===============================================================================
-- a must-know about me (or really not) is that: i love a lot of music genres,
-  a lot of edm & rave/acid subgenres, hip-hop, punk, ska and even jazz
-  if you're interested, go check out my spotify playlist!
+- sidenote: i love a lot of music genres, a lot of edm & acid, hip-hop, punk,
+  ska and even jazz - if you too like experimenting with music, check out my
+  spotify playlist(s)! (line #16)
 ```
