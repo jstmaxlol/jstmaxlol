@@ -1,0 +1,19 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_face": "chirufont",
+	"font_size": 14,
+	"margin": "8",
+	"gdi": "true",
+	"theme": "Adaptive.sublime-theme",
+	"draw_centered": "true",
+	"auto_complete": "false",
+	"themed_title_bar": "true",
+	"file_tab_style": "angled",
+	"hardware_acceleration": "opengl",
+	"draw_minimap": "false",
+	"overlay_scroll_bars": "enabled",
+	"overlay_scroll_bars": "enabled",
+	"always_show_minimap": "false",
+
+}
