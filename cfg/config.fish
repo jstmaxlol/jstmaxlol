@@ -13,6 +13,7 @@ if status is-interactive
 					#       highlighting sucks ass (vim on top)
           #       probably a skill issue because *plugins*
 	alias ff fastfetch
+	alias nf nfetch
 	alias fshsrc "source ~/.config/fish/config.fish"
 	alias vimrc "vim ~/.vimrc"
 	alias fishrc "v ~/.config/fish/config.fish"
