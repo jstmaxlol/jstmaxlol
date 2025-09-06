@@ -25,8 +25,7 @@
 currently leading development of the REBORN programming language, link: github.com/reborn-lang/
 ===============================================================================
 ::> programming languages (っ °Д °;)っ
-- C++ (my most comfortable language, ironic since i dislike OOP)
-- C
+- C / C++
 - Python
 - HTML/CSS | not programming languages but i am not making another category just for these fuckers
 - JavaScript/TypeScript
