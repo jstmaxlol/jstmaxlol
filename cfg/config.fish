@@ -2,7 +2,7 @@
 if status is-interactive
         # other env vars
         set -x EDITOR vim
-        set -x WINEPREFIX ~/winestuff/ps2018
+        #set -x WINEPREFIX ~/winestuff/ps2018
         set -x WINEARCH win64
         # aliases because i am a [NOTHING BAD I SWEAR]
         alias nv nvim
@@ -15,10 +15,8 @@ if status is-interactive
         alias neofishrc "nvim ~/.config/fish/config.fish"
         alias nvimrc "nvim ~/config/nvim/init.vim"
         alias ":q" exit
+        alias "replasma" "killall plasmashell && kstart5 plasmashell"
         # locale fucked - fix:
         #set -x LANG en_US.UTF-08
         #set -x LC_ALL en_US.UTF-08
-end
-	#set -x LANG en_US.UTF-08
-	#set -x LC_ALL en_US.UTF-08
 end
