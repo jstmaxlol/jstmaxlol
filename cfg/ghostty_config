@@ -4,9 +4,10 @@
 ##          @mansoorbarri, 00-kat & ghostty's documentation
 #
 
-background-opacity         = 0.7
-background-blur            = true # doesn't work on wayland, at least for me ig
-theme                      = Pnevma
+background-opacity         = 0.8
+background-blur            = false
+theme                      = Zenwritten Dark
+# other cool themes [Fahrenheit, ]
 cursor-style               = block
 cursor-style-blink         = false
 cursor-invert-fg-bg        = true
@@ -17,3 +18,5 @@ window-height              = 23
 window-width               = 80
 window-save-state          = never
 window-theme               = dark
+font-family                = mononoki
+command                    = /usr/bin/fish --login --interactive
