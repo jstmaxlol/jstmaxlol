@@ -1,6 +1,6 @@
 {
 	"font_face": "mononoki",
-	"font_size": 11,
+	"font_size": 14,
 	"margin": "8",
 	"gdi": "true",
 	"theme": "Cyanide.sublime-theme",
@@ -20,4 +20,5 @@
 		"Vintage",
 	],
 	"index_files": true,
+	"relative_line_numbers": true,
 }
