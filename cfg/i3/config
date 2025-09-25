@@ -1,0 +1,132 @@
+# =========================
+# personal i3 config
+# ==> maxwasmailed@proton.me
+# =========================
+
+# -------------------------
+# mod key
+# -------------------------
+set $mod Mod4
+
+# -------------------------
+# default terminal & launcher
+# -------------------------
+set $term ghostty
+set $shell fish
+
+# ------------------------
+# system & controls
+# ------------------------
+bindsym $mod+Return exec dmenu_run
+bindsym $mod+period exec ghostty
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+# more accurate (1% at a time)
+bindsym $mod+XF86MonBrightnessUp exec brightnessctl set +1%
+bindsym $mod+XF86MonBrightnessDown exec brightnessctl set 1%-
+
+# -------------------------
+# window management
+# -------------------------
+bindsym $mod+h split h
+bindsym $mod+v split v
+
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+bindsym $mod+q kill
+bindsym $mod+t floating toggle
+
+# -------------------------
+# workspaces
+# -------------------------
+set $ws1 "1:f"
+set $ws2 "2:u"
+set $ws3 "3:c"
+set $ws4 "4:k"
+set $ws5 "5:my"
+set $ws6 "6:l"
+set $ws7 "7:i"
+set $ws8 "8:f"
+set $ws9 "9:e"
+
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+
+bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
+
+# -------------------------
+# focus follows cursor
+# -------------------------
+focus_follows_mouse yes
+
+# -------------------------
+# borders / titlebars
+# -------------------------
+new_window pixel 2
+client.focused          #ffffff #000000 #ffffff #000000
+client.focused_inactive #000000 #000000 #ffffff #000000
+client.unfocused        #000000 #000000 #ffffff #000000
+client.urgent           #000000 #000000 #ffffff #000000
+
+# -------------------------
+# bar black + white (kurobar.sh)
+# -------------------------
+bar {
+    #status_command i3status
+        status_command ~/.config/i3/kurobar.sh
+    font pango:chirufontt 10
+    position top
+    colors {
+        background #000000
+        statusline #ffffff
+        separator  #ffffff
+        focused_workspace  #000000 #ffffff #000000
+        active_workspace   #000000 #ffffff #000000
+        inactive_workspace #000000 #000000 #ffffff
+        urgent_workspace   #000000 #000000 #ffffff
+    }
+}
+
+# -------------------------
+# startup
+# -------------------------
+exec --no-startup-id ibus-daemon -drx
+exec --no-startup-id nm-applet
+exec --no-startup-id xsetroot -cursor_name left_ptr
+exec --no-startup-id xsetroot -solid "#0f3f0f"
+exec --no-startup-id feh --bg-fill ~/Pictures/halftone-X298Up.png
+exec --no-startup-id picom
+
+# -------------------------
+# reload / restart / exit
+# -------------------------
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+e exit
