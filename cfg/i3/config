@@ -17,8 +17,12 @@ set $shell fish
 # ------------------------
 # system & controls
 # ------------------------
-bindsym $mod+Return exec dmenu_run
-bindsym $mod+period exec ghostty
+bindsym $mod+BackSpace exec jmdmenu run
+bindsym $mod+Return exec ghostty
+#bindsym $mod+v exec jmdmenu clipbd
+bindsym $mod+period exec jmdmenu bmj
+bindsym $mod+v exec --no-startup-id ~/.local/bin/clipmenu.sh
+# functions binds
 bindsym XF86MonBrightnessUp exec brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
 # more accurate (1%/i)
@@ -38,8 +42,8 @@ bindsym XF86AudioMicMute exec pamixer --default-source -t
 # -------------------------
 # window management
 # -------------------------
-bindsym $mod+h split h
-bindsym $mod+v split v
+#bindsym $mod+h split h
+#bindsym $mod+v split v
 
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
@@ -92,9 +96,10 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 
 # -------------------------
-# focus follows cursor
+# i dont know where to put this crap
 # -------------------------
 focus_follows_mouse yes
+floating_modifier $mod
 
 # -------------------------
 # borders / titlebars
@@ -140,3 +145,4 @@ exec --no-startup-id picom
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exit
+bindsym $mod+l exec i3lock -c 0f0f0f
