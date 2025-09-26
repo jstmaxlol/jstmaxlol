@@ -49,13 +49,11 @@ russian  -> plans to study
 ===============================================================================
 ::> a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
 - custom keyboard layout -> github.com/jstmaxlol/jstmaxlol/blob/main/jM!'s CkL2.ahk
-- custom fish_prompts    -> github.com/jstmaxlol/jstmaxlol/blob/main/jstmax_fish_prompts.fish
-- my vscode cfg          -> github.com/jstmaxlol/jstmaxlol/blob/main/jm_cz2ex.code-profile
+- a lot of configs       -> github.com/jstmaxlol/jstmaxlol/
 ===============================================================================
 - i use Arch, BTW
-- i use Hyprland, BTW
-- i use the same stuff on my Laptop, BTW
-- i am still dual-booting windows on my pc, BTW
+- i use i3, BTW
+- i have a ThinkPad L460 with 16GB of ram, a 256GB SSD and an i5-6300U
 ===============================================================================
 - sidenote: i love a lot of music genres, a lot of edm & acid, hip-hop, punk,
   ska and even jazz - if you too like experimenting with music, check out my
