@@ -1,0 +1,32 @@
+#!/bin/bash
+# simple black & white dmenu wrapper
+
+# -------------------------
+# configuration
+# -------------------------
+DMENU_FN="chirufont-10,Noto Color Emoji-10"
+DMENU_NB="#000000"   # normal background
+DMENU_NF="#ffffff"   # normal foreground
+DMENU_SB="#ffffff"   # selected background
+DMENU_SF="#000000"   # selected foreground
+DMENU_PROMPT="=> "
+DMENU_LINES=10
+
+# -------------------------
+# choose mode
+# -------------------------
+if [ "$1" = "run" ]; then
+        echo -e "LOG :: \$1 = \"run\"\n"
+        echo -e "LOG :: . . .\n"
+        dmenu_run -fn "$DMENU_FN" \
+                  -nb "$DMENU_NB" -nf "$DMENU_NF" \
+                  -sb "$DMENU_SB" -sf "$DMENU_SF" \
+                  -l "$DMENU_LINES" -p "$DMENU_PROMPT"
+else
+        echo -e "LOG :: Reading from stdin\n"
+        echo -e "LOG :: . . .\n"
+        dmenu -fn "$DMENU_FN" \
+              -nb "$DMENU_NB" -nf "$DMENU_NF" \
+              -sb "$DMENU_SB" -sf "$DMENU_SF" \
+              -l "$DMENU_LINES" -p "$DMENU_PROMPT"
+fi
