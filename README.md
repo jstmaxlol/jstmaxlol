@@ -3,34 +3,34 @@
 
 ```
    _     _                        _ 
-  (_)___| |_ _ __ ___   __ ___  _| | ::> gfx designer && software dev (‾◡◝)//
+  (_)___| |_ _ __ ___   __ ___  _| | => gfx designer && software dev (‾◡◝)//
   | / __| __| '_ ` _ \ / _` \ \/ / | ☆ bit.ly/mx_info          ☆
   | \__ \ |_| | | | | | (_| |>  <|_| ☆ vi/vim/nvim user        ☆
  _/ |___/\__|_| |_| |_|\__,_/_/\_(_)
 |__/
 
 ===============================================================================
-::> social networks ( ﹁ ﹁ ) ~→
+=> social networks ( ﹁ ﹁ ) ~→
 - linktree -> bit.ly/mx_info
 - twitter  -> @maxwasntaken
 - spotify  -> bit.ly/mx_sptfy
 - discord  -> @jstmaxlol
 ===============================================================================
-::> support me w(ﾟДﾟ)w
+=> support me w(ﾟДﾟ)w
 - patreon  ♡♡ patreon.com/jstmax
 - paypal   ♡♡ bit.ly/mx_donate
 - MOTD     -> jstmaxlol.github.io/motd
 - lainHost -> lainhost.ct.ws
-::> projects i'm working on
+=> projects i'm working on
 currently leading development of the REBORN programming language, link: github.com/reborn-lang/
 ===============================================================================
-::> programming languages (っ °Д °;)っ
+=> programming languages (っ °Д °;)っ
 - C / C++
 - Python
 - HTML/CSS | not programming languages but i am not making another category just for these fuckers
 - JavaScript/TypeScript
 ===============================================================================
-::> languages i speak ヾ(≧▽≦*)o
+=> languages i speak ヾ(≧▽≦*)o
 italian  -> native
 english  -> write and speak fluently - i do not usually speak english so my pronounce may not be the snappiest
 japanese -> studying
@@ -47,7 +47,7 @@ russian  -> plans to study
 - hex signature  = jstmax@62-69-74-2E-6C-79-2F-6D-78-5F-69-6E-66-6F
 - PGP public key = github.com/jstmaxlol/jstmaxlol/blob/main/jmPGP - pub.asc
 ===============================================================================
-::> a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
+=> a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
 - custom keyboard layout -> github.com/jstmaxlol/jstmaxlol/blob/main/jM!'s CkL2.ahk
 - a lot of configs       -> github.com/jstmaxlol/jstmaxlol/
 ===============================================================================
