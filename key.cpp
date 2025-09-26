@@ -2,7 +2,7 @@
 #include <termios.h>
 #include <unistd.h>
 #include <escape.ansi>
-
+// useless btw, just use xev if you actually need this, just made for fun
 char getch() {
     struct termios oldt, newt;
     char ch;
