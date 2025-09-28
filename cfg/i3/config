@@ -119,13 +119,13 @@ bar {
     font pango:chirufont 10
     position top
     colors {
-        background #000000
-        statusline #ffffff
-        separator  #ffffff
-        focused_workspace  #000000 #ffffff #000000
-        active_workspace   #000000 #ffffff #000000
-        inactive_workspace #000000 #000000 #ffffff
-        urgent_workspace   #000000 #000000 #ffffff
+        background #0f0f0f
+        statusline #992020
+        separator  #992020
+        focused_workspace  #0f0f0f #992020 #0f0f0f
+        active_workspace   #0f0f0f #992020 #0f0f0f
+        inactive_workspace #0f0f0f #0f0f0f #992020
+        urgent_workspace   #0f0f0f #0f0f0f #992020
     }
 }
 
@@ -135,9 +135,10 @@ bar {
 exec --no-startup-id ibus-daemon -drx
 exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -cursor_name left_ptr
-exec --no-startup-id xsetroot -solid "#0f3f0f"
-exec --no-startup-id feh --bg-fill ~/Pictures/halftone-X298Up.png
+exec --no-startup-id xsetroot -solid "#1f1f1f"
+exec --no-startup-id feh --bg-fill ~/Pictures/halftone-red0.png
 exec --no-startup-id picom
+exec --no-startup-id kwalletd6
 
 # -------------------------
 # reload / restart / exit
