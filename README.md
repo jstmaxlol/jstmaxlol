@@ -32,7 +32,7 @@ currently leading development of the REBORN programming language, link: github.c
 ===============================================================================
 => languages i speak ヾ(≧▽≦*)o
 italian  -> native
-english  -> write and speak fluently - i do not usually speak english so my pronounce may not be the snappiest
+english  -> write and speak fluently - i don't speak much english so my pronounce kinda suxx
 japanese -> studying
 german   -> plans to study
 russian  -> plans to study
@@ -48,8 +48,7 @@ russian  -> plans to study
 - PGP public key = github.com/jstmaxlol/jstmaxlol/blob/main/jmPGP - pub.asc
 ===============================================================================
 => a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
-- custom keyboard layout -> github.com/jstmaxlol/jstmaxlol/blob/main/jM!'s CkL2.ahk
-- a lot of configs       -> github.com/jstmaxlol/jstmaxlol/
+- all of my dotfiles -> github.com/jstmaxlol/jstmaxlol/
 ===============================================================================
 - i use Arch, BTW
 - i use i3, BTW
