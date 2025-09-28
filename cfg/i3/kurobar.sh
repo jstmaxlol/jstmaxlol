@@ -1,8 +1,8 @@
 #!/bin/bash
 
 while true; do
-        # --- volume percentage ---
-        volume=$(pamixer --get-volume)
+    # --- volume percentage ---
+    volume=$(pamixer --get-volume)
 
     # --- battery percentage ---
     if [ -d /sys/class/power_supply/BAT0 ]; then
