@@ -5,15 +5,15 @@
 # configuration
 # -------------------------
 DMENU_FN="chirufont-10,Noto Color Emoji-10"
-DMENU_NB="#000000"   # normal background
-DMENU_NF="#ffffff"   # normal foreground
-DMENU_SB="#ffffff"   # selected background
-DMENU_SF="#000000"   # selected foreground
+DMENU_NB="#0f0f0f"   # normal background
+DMENU_NF="#902020"   # normal foreground
+DMENU_SB="#902020"   # selected background
+DMENU_SF="#0f0f0f"   # selected foreground
 DMENU_PROMPT="=> "
 DMENU_LINES=10
 
 # -------------------------
-# choose mode
+# choose mode: dmenu_run or custom list
 # -------------------------
 if [ "$1" = "run" ]; then
         echo -e "LOG :: \$1 = \"run\"\n"
@@ -22,6 +22,10 @@ if [ "$1" = "run" ]; then
                   -nb "$DMENU_NB" -nf "$DMENU_NF" \
                   -sb "$DMENU_SB" -sf "$DMENU_SF" \
                   -l "$DMENU_LINES" -p "$DMENU_PROMPT"
+elif [ "$1" = "bmj" ]; then
+        echo -e "LOG :: \$1 = \"bmj\"\n"
+        echo -e "LOG :: . . .\n"
+        bemoji
 else
         echo -e "LOG :: Reading from stdin\n"
         echo -e "LOG :: . . .\n"
