@@ -25,9 +25,12 @@ call plug#begin()
 " plugin list
 Plug 'qaptoR-nvim/chocolatier.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
+Plug 'ficcdaf/ashen.nvim'
 
 call plug#end()
 
 " theme
 set background=dark
-silent! colorscheme chocolatier
+"silent! color chocolatier
+"silent! color retrobox
+silent! color ashen
