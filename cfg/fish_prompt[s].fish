@@ -46,5 +46,5 @@ function fish_right_prompt
         set dt $(date '+%Y-%m-%d %H:%M')
 
         # print prompt
-    echo -e (set_color $colorInverse)"( "(set_color $color)"$last_status"(set_color white)" | "(set_color $color)"$dt"(set_color $colorInverse)" )"
+    echo -e (set_color $colorInverse)"( "(set_color $color)"$last_status"(set_color $colorInverse)" | "(set_color $color)"$dt"(set_color $colorInverse)" )"
 end
