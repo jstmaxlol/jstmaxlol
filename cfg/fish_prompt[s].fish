@@ -5,23 +5,23 @@ function fish_prompt
     set -l home $HOME
 
     if test "$cwd" = "$home"
-                # if in ~
-        echo -e (set_color red)"("(set_color white)"$user" \
-                                (set_color red)"⮞"(set_color white)"⮞"(set_color red)"⮞" \
-                                (set_color white)"~"(set_color red)")"(set_color normal)"\n⮞ "
-                # (max⮞⮞⮞~)
-                # ⮞
+		# if in ~
+        echo -e (set_color white)"╭"(set_color red)"("(set_color white)"$user" \
+				(set_color red)"⮞"(set_color white)"⮞"(set_color red)"⮞" \
+				(set_color white)"~"(set_color red)")"(set_color red)"\n╰"(set_color white)"⮞ "
+		# ╭(max⮞⮞⮞~)
+		# ╰⮞
     else if string match -q "$home/*" $cwd
         set -l relative (string replace "$home/" "~/" $cwd)
-                # if in a ~ subdir
-        echo -e (set_color red)"("(set_color white)"$user" \
-                            (set_color red)"⮞"(set_color white)"⮞"(set_color red)"⮞" \
-                                (set_color white)$relative(set_color red)")"(set_color normal)"\n⮞ "
+		# if in a ~ subdir
+        echo -e (set_color white)"╭"(set_color red)"("(set_color white)"$user" \
+				(set_color red)"⮞"(set_color white)"⮞"(set_color red)"⮞" \
+				(set_color white)$relative(set_color red)")"(set_color red)"\n╰"(set_color white)"⮞ "
     else
-                # if in any other dir
-        echo -e (set_color red)"("(set_color white)"$user" \
-                                (set_color red)"⮞"(set_color white)"⮞"(set_color red)"⮞" \
-                                (set_color white)$cwd(set_color red)")"(set_color normal)"\n⮞ "
+		# if in any other dir
+        echo -e (set_color white)"╭"(set_color red)"("(set_color white)"$user" \
+				(set_color red)"⮞"(set_color white)"⮞"(set_color red)"⮞" \
+				(set_color white)$cwd(set_color red)")"(set_color red)"\n╰"(set_color white)"⮞ "
     end
 end
 
