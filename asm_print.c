@@ -1,9 +1,6 @@
 #include <string.h>
 #include <stddef.h>
 
-#ifndef __stupid
-#define __stupid
-
 void dprint(const char* str);
 
 int main(void) {
@@ -28,5 +25,3 @@ void dprint(const char* str) {
         : "%rax", "%rdi", "%rsi", "%rdx"
     );
 }
-
-#endif
