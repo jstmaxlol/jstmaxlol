@@ -4,21 +4,24 @@
 ##          @mansoorbarri, 00-kat & ghostty's documentation
 #
 
-background-opacity         = 0.7
-background-blur            = false
-theme                      = Zenwritten Dark
+background-opacity           = 0.7
+background-blur              = false
+theme                        = Zenwritten Dark
 # other cool themes [Fahrenheit, ]
-cursor-style               = block
-cursor-style-blink         = false
-cursor-invert-fg-bg        = true
-shell-integration-features = no-cursor
-window-padding-y           = 14
-window-padding-x           = 16
-window-height              = 23
-window-width               = 80
-window-save-state          = never
-window-theme               = dark
-font-family                = mononoki
-command                    = /usr/bin/fish --login --interactive
-font-feature                       = +calt, +liga, +dlig
-window-decoration                  = none
+cursor-style                 = block
+cursor-style-blink           = false
+cursor-invert-fg-bg          = true
+shell-integration-features   = no-cursor
+window-padding-x             = 16
+window-padding-y             = 14
+window-width				 = 84
+window-height                = 24
+window-save-state            = never
+window-theme                 = dark
+font-family                  = mononoki
+font-size				     = 12
+window-titlebar-foreground   = #f82323
+window-titlebar-background   = #0f0f0f
+command                      = /usr/bin/fish --login --interactive
+font-feature			     = +calt, +liga, +dlig
+window-decoration		     = none
