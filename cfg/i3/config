@@ -1,5 +1,5 @@
 # =========================
-# クロナのI3チエッフギ
+# クロナのI3チエッフギ 
 # ==> maxwasmailed@proton.me
 # =========================
 
@@ -11,17 +11,19 @@ set $mod Mod4
 # -------------------------
 # default terminal & launcher
 # -------------------------
-set $term ghostty
+set $term alacritty
 set $shell fish
 
 # ------------------------
 # system & controls
 # ------------------------
+bindsym Mod1+Space exec jmdmenu run
 bindsym $mod+BackSpace exec jmdmenu run
-bindsym $mod+Return exec ghostty
+bindsym $mod+Return exec $term
 #bindsym $mod+v exec jmdmenu clipbd
 bindsym $mod+period exec jmdmenu bmj
-bindsym $mod+v exec --no-startup-id ~/.local/bin/clipmenu.sh
+bindsym $mod+Shift+c exec xcolor | jmdmenu
+bindsym $mod+e exec nemo
 # functions binds
 bindsym XF86MonBrightnessUp exec brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
@@ -42,8 +44,7 @@ bindsym XF86AudioMicMute exec pamixer --default-source -t
 # -------------------------
 # window management
 # -------------------------
-#bindsym $mod+h split h
-#bindsym $mod+v split v
+for_window [floating] resize set 672 432
 
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
@@ -54,13 +55,25 @@ bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
 
 bindsym $mod+q kill
 bindsym $mod+t floating toggle
+
+bindsym $mod+v split v
+bindsym $mod+h split h
+
+bindsym $mod+w layout toggle tabbed split
+
+bindsym $mod+Ctrl+Tab focus next
+bindsym $mod+Ctrl+Shift+Tab focus prev
+bindsym $mod+Tab exec i3-msg workspace next_on_output
+bindsym $mod+Shift+Tab exec i3-msg workspace prev_on_output
+
+# -------------------------
+# a bit of layout
+# -------------------------
+exec --no-startup-id i3-msg gaps horizontal all set 32
+exec --no-startup-id i3-msg gaps vertical all set 8
 
 # -------------------------
 # workspaces
@@ -68,7 +81,7 @@ bindsym $mod+t floating toggle
 set $ws1 "1:f"
 set $ws2 "2:u"
 set $ws3 "3:c"
-set $ws4 "4:k"
+set $ws4 "4:k
 set $ws5 "5:my"
 set $ws6 "6:l"
 set $ws7 "7:i"
@@ -104,46 +117,52 @@ floating_modifier $mod
 # -------------------------
 # borders / titlebars
 # -------------------------
-new_window pixel 2
-client.focused          #ffffff #000000 #ffffff #000000
-client.focused_inactive #000000 #000000 #ffffff #000000
-client.unfocused        #000000 #000000 #ffffff #000000
-client.urgent           #000000 #000000 #ffffff #000000
+new_window pixel 16
+client.focused          #f82323 #0f0f0f #f82323 #0f0f0f
+client.focused_inactive #0f0f0f #0f0f0f #f82323 #0f0f0f
+client.unfocused        #0f0f0f #0f0f0f #f82323 #0f0f0f
+client.urgent           #0f0f0f #0f0f0f #f82323 #0f0f0f
 
 # -------------------------
 # bar black + white (kurobar.sh)
 # -------------------------
 bar {
     #status_command i3status
-        status_command ~/.config/i3/kurobar.sh
+	status_command ~/.config/i3/kurobar.sh
     font pango:chirufont 10
     position top
     colors {
         background #0f0f0f
-        statusline #992020
-        separator  #992020
-        focused_workspace  #0f0f0f #992020 #0f0f0f
-        active_workspace   #0f0f0f #992020 #0f0f0f
-        inactive_workspace #0f0f0f #0f0f0f #992020
-        urgent_workspace   #0f0f0f #0f0f0f #992020
+        statusline #f82323
+        separator  #f82323
+        focused_workspace  #0f0f0f #f82323 #0f0f0f
+        active_workspace   #0f0f0f #f82323 #0f0f0f
+        inactive_workspace #0f0f0f #0f0f0f #f82323
+        urgent_workspace   #0f0f0f #0f0f0f #f82323
     }
 }
 
 # -------------------------
 # startup
 # -------------------------
+exec --no-startup-id export GTK_USE_PORTAL=0
+exec --no-startup-id export XDG_CURRENT_DESKTOP=GNOME
+exec --no-startup-id sudo systemctl --user mask xdg-desktop-portal-kde.service
 exec --no-startup-id ibus-daemon -drx
 exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -cursor_name left_ptr
-exec --no-startup-id xsetroot -solid "#1f1f1f"
+exec --no-startup-id xsetroot -solid "#1f1f1f" 
 exec --no-startup-id feh --bg-fill ~/Pictures/halftone-red0.png
 exec --no-startup-id picom
 exec --no-startup-id kwalletd6
+exec --no-startup-id xinput set-prop 11 "libinput Tapping Enabled" 1
+exec --no-startup-id xinput set-prop 9 "libinput Accel Speed" -1
+exec --no-startup-id blueman-applet
 
 # -------------------------
 # reload / restart / exit
 # -------------------------
-bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exit
 bindsym $mod+l exec i3lock -c 0f0f0f
+

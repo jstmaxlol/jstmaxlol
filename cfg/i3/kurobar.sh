@@ -1,8 +1,8 @@
 #!/bin/bash
 
 while true; do
-    # --- volume percentage ---
-    volume=$(pamixer --get-volume)
+	# --- volume percentage ---
+	volume=$(pamixer --get-volume)
 
     # --- battery percentage ---
     if [ -d /sys/class/power_supply/BAT0 ]; then
@@ -27,10 +27,11 @@ while true; do
     #cpu=$((100 * ( (cpu_total2 - cpu_total1) - (cpu_idle2 - cpu_idle1) ) / (cpu_total2 - cpu_total1) ))
 
     # --- date/time ---
-    dt=$(date '+%Y-%m-%d %H:%M:%S')
+    dt=$(date '+%Y年%m月%d日 %H時%M分%S秒')
 
     # --- print bar line ---
     echo "V.$volume% | B.$bat% | $mem_used/$mem_total GB | L.$bright | $dt"
 
     sleep 0.01
 done
+
