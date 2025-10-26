@@ -2,7 +2,7 @@ function fish_prompt
     set -l user $USER
     set -l cwd $PWD
     set -l home $HOME
-
+    
     if test "$cwd" = "$home"
 		# if in ~
         echo -e (set_color white)"╭"(set_color red)"("(set_color white)"$user" \
