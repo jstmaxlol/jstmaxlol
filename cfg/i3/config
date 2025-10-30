@@ -81,7 +81,7 @@ exec --no-startup-id i3-msg gaps vertical all set 8
 set $ws1 "1:f"
 set $ws2 "2:u"
 set $ws3 "3:c"
-set $ws4 "4:k
+set $ws4 "4:k"
 set $ws5 "5:my"
 set $ws6 "6:l"
 set $ws7 "7:i"
