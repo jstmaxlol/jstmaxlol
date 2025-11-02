@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
     printf("%scmb%s>%s iteration count: %ld! = %llu\n", red, white, norm, strlen(str), iter_num);
     
     if (strlen(str) >= 6) {
-        printf("%scmb%s>%s warning, your string is >= 6 characters long.\n", red, white, norm);
+        printf("%scmb%s>%s warning, your string is %ld characters long.\n", red, white, norm, strlen(str));
         printf("%scmb%s>%s the output %s*will*%s be %shuge%s, continue? (y/n)\n? ", red, white, norm, red, norm, red, norm);
         scanf(" %c", &warn);
         if (warn == 'n') {
