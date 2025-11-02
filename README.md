@@ -52,7 +52,7 @@ russian  -> plans to study
 ===============================================================================
 - i use Arch, BTW
 - i use i3, BTW
-- i have a ThinkPad L460 with 16GB of ram, a 256GB SSD and an i5-6300U
+- i have a ThinkPad L460 := {i5-6300U, 16GB RAM, 256GB SSD};
 ===============================================================================
 - sidenote: i love a lot of music genres, a lot of edm & acid, hip-hop, punk,
   ska and even jazz - if you too like experimenting with music, check out my
