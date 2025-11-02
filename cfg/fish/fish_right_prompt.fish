@@ -16,13 +16,17 @@ function fish_right_prompt
 	end
 
 	# set date in dt
-	set dt $(date '+%Y-%m-%d %H:%M')
+	set dt $(date '+%Y-%m-%d')
 
     # set battery capacity in bat
     set bat $(cat /sys/class/power_supply/BAT0/capacity)
-
+    
+    # move up a line
+    echo -e "\e[1A"
 	# print prompt
     echo -e (set_color $colorInverse)"( "(set_color $color)"$last_status"(set_color $colorInverse)" | " \
             (set_color $color)"bat.$bat%"(set_color $colorInverse) " | " \
 		    (set_color $color)"$dt"(set_color $colorInverse)" )"
+    # go back one line so the user doesn't overwrite fish_prompt
+    echo -e "\e[1B"
 end
