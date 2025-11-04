@@ -7,6 +7,9 @@ if status is-interactive
 	set -x VIMRUNTIME "/usr/share/nvim/runtime"
     #set -x WINEPREFIX ~/winestuff/ps2018
 	set -x WINEARCH win64
+    export GTK_IM_MODULE=ibus
+    export QT_IM_MODULE=ibus
+    export XMODIFIERS=@im=ibus
 
 	# ALIASES
 	alias v nvim
@@ -31,4 +34,10 @@ if status is-interactive
 	alias drumz "drumseq ch ch h ch s ch h s -x -bpm=360"
     alias dashbd-clock "tty-clock -s -c -C 1"
     alias trexa "exa --tree --level=2 --icons"
+    alias tl trexa
+    alias swayrc "nvim ~/.config/sway/config"
+    alias ql qalc
+    alias rofi_ty1 "~/.config/rofi/launchers/type-1/launcher.sh"
+    alias tmuxrc "nvim ~/.tmux.conf"
+
 end
