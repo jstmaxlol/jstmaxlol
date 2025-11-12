@@ -39,7 +39,8 @@ if status is-interactive
     alias ql qalc
     alias rofi_ty1 "~/.config/rofi/launchers/type-1/launcher.sh"
     alias tmuxrc "nvim ~/.tmux.conf"
-    # yes, i truly am *this* lazy:
+    # yes, i truly am *this* lazy btw
     alias mkx makex
+    alias ts tailscale
 
 end
