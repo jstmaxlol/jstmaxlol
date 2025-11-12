@@ -62,7 +62,7 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 bindsym $mod+q kill
-bindsym $mod+t floating toggle && resize set 672 432
+bindsym $mod+t floating toggle; resize set 672 432
 
 bindsym $mod+v split v
 bindsym $mod+h split h
@@ -123,9 +123,13 @@ floating_modifier $mod
 # borders / titlebars
 # -------------------------
 client.focused          #f82323 #101010 #f82323 #101010
+    font pango:chirufont 10
 client.focused_inactive #101010 #101010 #f82323 #101010
+    font pango:chirufont 10
 client.unfocused        #101010 #101010 #f82323 #101010
+    font pango:chirufont 10
 client.urgent           #101010 #101010 #f82323 #101010
+    font pango:chirufont 10
 
 # -------------------------
 # bar black + white (kurobar.sh)
