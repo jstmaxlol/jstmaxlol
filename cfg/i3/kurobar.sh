@@ -19,6 +19,14 @@ while true; do
     # outputs just the % from brightnessctl -m
     bright=$(brightnessctl -m | awk -F, '{print $4}')
 
+    # --- LAN ip ---
+    # 192.168.x.x
+    localip=$(hostname -i | grep -oE '192\.168\.[0-9]+\.[0-9]+')
+    
+    # --- public IP ---
+    # attached to the fetchpubip service and the .config/i3/fetch_public_ip.sh script
+    pubip=$(cat ~/.config/i3/public_ip.txt)
+
     # --- cpu usage ---
     #cpu_idle1=$(awk '/^cpu / {print $5}' /proc/stat)
     #cpu_total1=$(awk '/^cpu / {total=0; for(i=2;i<=NF;i++) total+=$i; print total}' /proc/stat)
@@ -30,7 +38,7 @@ while true; do
     dt=$(date '+%Y年%m月%d日 %H時%M分%S秒')
 
     # --- print bar line ---
-    echo "V.$volume% | B.$bat% | $mem_used/$mem_total GB | L.$bright | $dt"
+    echo "vol.$volume% | bat.$bat% | bri.$bright | lan.$localip | pub.$pubip | $mem_used/$mem_total gb | $dt"
 
     sleep 0.01
 done

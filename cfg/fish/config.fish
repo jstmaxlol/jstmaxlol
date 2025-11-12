@@ -13,12 +13,12 @@ if status is-interactive
 
 	# ALIASES
 	alias v nvim
+    alias b bat
 	alias ff fastfetch
 	alias nf nfetch
 	alias src "source ~/.config/fish/config.fish"
 	alias vimrc "nvim ~/.vimrc"
-	alias fishrc "nvim ~/.config/fish/config.fish"
-	alias neofishrc "nvim ~/.config/fish/config.fish"
+	alias frc "nvim ~/.config/fish/config.fish"
 	alias nvimrc "nvim ~/.config/nvim/init.vim"
 	alias ":q" exit
 	alias replasma "killall plasmashell && kstart5 plasmashell"
@@ -39,5 +39,7 @@ if status is-interactive
     alias ql qalc
     alias rofi_ty1 "~/.config/rofi/launchers/type-1/launcher.sh"
     alias tmuxrc "nvim ~/.tmux.conf"
+    # yes, i truly am *this* lazy:
+    alias mkx makex
 
 end
