@@ -45,7 +45,7 @@ russian  -> plans to study
  \___/_/\_\\__|_|  \__,_/_/
 
 ===============================================================================
-- forum signature = jstmax! : <jstmaxlol@disroot.org> & <maxwasmailed@proton.me>
+- forum signature = jstmax! : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>
 - PGP public key  = github.com/jstmaxlol/jstmaxlol/blob/main/jmPGP - pub.asc
 ===============================================================================
 => a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
