@@ -4,7 +4,7 @@
 ```
 __/\__    _     _                        _ 
 \    /   (_)___| |_ _ __ ___   __ ___  _| | => gfx designer && software dev (‾◡◝)//
-/_  _\   | / __| __| '_ ` _ \ / _` \ \/ / | ☆ bit.ly/mx_info          ☆
+/_  _\ cz| / __| __| '_ ` _ \ / _` \ \/ / | ☆ bit.ly/mx_info          ☆
   \/     | \__ \ |_| | | | | | (_| |>  <|_| ☆ vi/vim/nvim user        ☆
         _/ |___/\__|_| |_| |_|\__,_/_/\_(_)
        |__/
@@ -45,7 +45,7 @@ russian  -> plans to study
  \___/_/\_\\__|_|  \__,_/_/
 
 ===============================================================================
-- forum signature = jstmax! : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>
+- forum signature = czjstmax! : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>
 - PGP public key  = github.com/jstmaxlol/jstmaxlol/blob/main/jmPGP - pub.asc
 ===============================================================================
 => a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
