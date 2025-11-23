@@ -6,7 +6,7 @@ function prompt {
 
         Write-Host "╭" -ForegroundColor white -NoNewline
         Write-Host "(" -ForegroundColor red -NoNewline
-        Write-Host "max" -ForegroundColor white -NoNewline
+        Write-Host $user -ForegroundColor white -NoNewline
         Write-Host " ⮞" -ForegroundColor red -NoNewline
         Write-Host "⮞" -ForegroundColor white -NoNewline
         Write-Host "⮞ " -ForegroundColor red -NoNewline
