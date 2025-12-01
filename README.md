@@ -17,23 +17,22 @@ __/\__    _     _                        _
 - discord  -> @jstmaxlol
 ===============================================================================
 => support me w(ﾟДﾟ)w
-- patreon  ♡♡ patreon.com/jstmax
-- paypal   ♡♡ bit.ly/mx_donate
-- MOTD     -> jstmaxlol.github.io/motd
-- lainHost -> lainhost.ct.ws
-=> projects i'm working on
-currently leading development of the REBORN programming language, link: github.com/reborn-lang/
+- patreon   ♡♡ patreon.com/jstmax
+- paypal    ♡♡ bit.ly/mx_donate
+- 95Windows -> 95windows.rf.gd
+- MOTD      -> jstmaxlol.github.io/motd
+- lainHost  -> lainhost.ct.ws
 ===============================================================================
 => programming languages (っ °Д °;)っ
 - C / C++
 - Python
 - Go
-- HTML/CSS | not programming languages but i am not making another category just for these two fuckers
+- HTML/CSS | not programming languages; i know
 - JavaScript/TypeScript
 ===============================================================================
 => languages i speak ヾ(≧▽≦*)o
 italian  -> native
-english  -> write and speak fluently - i don't speak much english so my pronounce kinda suxx
+english  -> write and speak fluently(ish)
 japanese -> studying
 german   -> plans to study
 russian  -> plans to study
@@ -46,7 +45,6 @@ russian  -> plans to study
 
 ===============================================================================
 - forum signature = czjstmax! : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>
-- PGP public key  = github.com/jstmaxlol/jstmaxlol/blob/main/jmPGP - pub.asc
 ===============================================================================
 => a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
 - all of my dotfiles -> github.com/jstmaxlol/jstmaxlol/
