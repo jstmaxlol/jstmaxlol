@@ -42,5 +42,11 @@ if status is-interactive
     # yes, i truly am *this* lazy btw
     alias mkx makex
     alias ts tailscale
-
+    alias md mkdir
+    alias arc aerc
+    alias arcarc "nvim ~/.config/aerc/aerc.conf"
+    alias apacherc "sudo -E nvim /etc/httpd/conf/httpd.conf"
+    alias cgitrc "sudo -E nvim /etc/cgitrc"
+    alias inspirc "sudo -E nvim /etc/inspircd/inspircd.conf"
+    alias caffeine "systemd-inhibit --what=handle-lid-switch sleep infinity"
 end
