@@ -21,7 +21,8 @@ while true; do
 
     # --- LAN ip ---
     # 192.168.x.x
-    localip=$(hostname -i | grep -oE '192\.168\.[0-9]+\.[0-9]+')
+    localip=$(ip -4 addr show | awk '/inet 192\.168\./ {print $2}' | cut -d/ -f1 | head -n1)
+    #localip=$(hostname -i | grep -oE '192\.168\.[0-9]+\.[0-9]+')
     
     # --- public IP ---
     # attached to the fetchpubip service and the .config/i3/fetch_public_ip.sh script
@@ -38,7 +39,7 @@ while true; do
     dt=$(date '+%Y年%m月%d日 %H時%M分%S秒')
 
     # --- print bar line ---
-    echo "vol.$volume% | bat.$bat% | bri.$bright | lan.$localip | pub.$pubip | $mem_used/$mem_total gb | $dt"
+    echo "vol.$volume% | bat.$bat% | bri.$bright | lan.$localip | pub.$pubip | "$mem_used"/"$mem_total"gb | $dt"
 
     sleep 0.01
 done

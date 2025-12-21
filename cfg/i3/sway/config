@@ -20,7 +20,6 @@ set $shell fish
 bindsym Mod1+Space exec jmdmenu run
 bindsym $mod+BackSpace exec jmdmenu run
 bindsym $mod+Return exec $term
-#bindsym $mod+v exec jmdmenu clipbd
 bindsym $mod+period exec jmdmenu bmj
 bindsym $mod+Shift+c exec xcolor | jmdmenu
 bindsym $mod+e exec nemo
@@ -43,7 +42,14 @@ bindsym XF86AudioMicMute exec pamixer --default-source -t
 # compose key
 input * xkb_options compose:ralt  
 # fallback to **KILL** dmenu when it freezes because fuck sway i guess
-bindsym $mod+Alt_L+q exec kill -9 dmenu
+bindsym $mod+Alt_L+q exec kill dmenu
+# [re]binds
+input * {
+    xkb_options caps:escape
+}
+# [un]binds
+bindsym Page_Up  nop
+bindsym Page_Down  nop
 
 
 # -------------------------
@@ -77,8 +83,8 @@ bindsym $mod+Shift+Tab exec i3-msg workspace prev_on_output
 # -------------------------
 # a bit of layout
 # -------------------------
-exec --no-startup-id i3-msg gaps horizontal all set 32
-exec --no-startup-id i3-msg gaps vertical all set 8
+#exec --no-startup-id i3-msg gaps horizontal all set 32
+#exec --no-startup-id i3-msg gaps vertical all set 8
 
 # -------------------------
 # workspaces
@@ -156,7 +162,13 @@ bar {
 exec --no-startup-id export GTK_USE_PORTAL=0
 exec --no-startup-id export XDG_CURRENT_DESKTOP=GNOME
 exec --no-startup-id sudo systemctl --user mask xdg-desktop-portal-kde.service
-exec --no-startup-id ibus-daemon -drx
+
+exec --no-startup-id export GTK_IM_MODULE=fcitx
+exec --no-startup-id export QT_IM_MODULE=fcitx
+exec --no-startup-id export XMODIFIERS=@im=fcitx
+#exec --no-startup-id ibus-daemon -drx
+exec --no-startup-id ibus start
+
 exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -cursor_name left_ptr
 exec --no-startup-id xsetroot -solid "#1f1f1f" 
@@ -174,5 +186,5 @@ input "type:touchpad" {
 # -------------------------
 bindsym $mod+Shift+r reload
 bindsym $mod+Shift+e exit
-bindsym $mod+l exec i3lock -c 101010
+bindsym $mod+l exec /home/max/.config/sway/swaylock_colors.sh
 

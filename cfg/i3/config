@@ -1,5 +1,5 @@
 # =========================
-# クロナのI3チエッフギ 
+# クロナのi3wmチエッフギ 
 # ==> maxwasmailed@proton.me
 # =========================
 
@@ -11,8 +11,10 @@ set $mod Mod4
 # -------------------------
 # default terminal & launcher
 # -------------------------
-set $term alacritty
+#set $term alacritty
+set $term kitty
 set $shell fish
+set $jfont Iosevka
 
 # ------------------------
 # system & controls
@@ -41,6 +43,11 @@ bindsym XF86AudioMute exec pamixer -t
 # mute mic
 bindsym XF86AudioMicMute exec pamixer --default-source -t
 
+# remap capslock to escape
+exec --no-startup-id setxkbmap -option caps:escape
+# compose key
+exec --no-startup-id setxkbmap -option compose:ralt
+
 # -------------------------
 # window management
 # -------------------------
@@ -57,7 +64,7 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 bindsym $mod+q kill
-bindsym $mod+t floating toggle
+bindsym $mod+t floating toggle, resize set 672 432
 
 bindsym $mod+v split v
 bindsym $mod+h split h
@@ -68,12 +75,6 @@ bindsym $mod+Ctrl+Tab focus next
 bindsym $mod+Ctrl+Shift+Tab focus prev
 bindsym $mod+Tab exec i3-msg workspace next_on_output
 bindsym $mod+Shift+Tab exec i3-msg workspace prev_on_output
-
-# -------------------------
-# a bit of layout
-# -------------------------
-exec --no-startup-id i3-msg gaps horizontal all set 32
-exec --no-startup-id i3-msg gaps vertical all set 8
 
 # -------------------------
 # workspaces
@@ -117,7 +118,7 @@ floating_modifier $mod
 # -------------------------
 # borders / titlebars
 # -------------------------
-new_window pixel 16
+font pango:$jfont 9
 client.focused          #f82323 #0f0f0f #f82323 #0f0f0f
 client.focused_inactive #0f0f0f #0f0f0f #f82323 #0f0f0f
 client.unfocused        #0f0f0f #0f0f0f #f82323 #0f0f0f
@@ -129,7 +130,7 @@ client.urgent           #0f0f0f #0f0f0f #f82323 #0f0f0f
 bar {
     #status_command i3status
 	status_command ~/.config/i3/kurobar.sh
-    font pango:chirufont 10
+    font pango:$jfont 9
     position top
     colors {
         background #0f0f0f
@@ -152,11 +153,11 @@ exec --no-startup-id ibus-daemon -drx
 exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -cursor_name left_ptr
 exec --no-startup-id xsetroot -solid "#1f1f1f" 
-exec --no-startup-id feh --bg-fill ~/Pictures/halftone-red0.png
+exec --no-startup-id feh --bg-fill ~/Pictures/murasamBIG.png
 exec --no-startup-id picom
 exec --no-startup-id kwalletd6
-exec --no-startup-id xinput set-prop 11 "libinput Tapping Enabled" 1
-exec --no-startup-id xinput set-prop 9 "libinput Accel Speed" -1
+exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
+exec --no-startup-id xinput set-prop "MOSART Semi. 2.4G Wireless Mouse" "libinput Accel Speed" -1
 exec --no-startup-id blueman-applet
 
 # -------------------------
@@ -164,5 +165,5 @@ exec --no-startup-id blueman-applet
 # -------------------------
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exit
-bindsym $mod+l exec i3lock -c 0f0f0f
+bindsym $mod+l exec i3lock
 

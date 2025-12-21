@@ -4,6 +4,8 @@
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set exrc secure
+set virtualedit=block
 " c-o-l-o-r-s-!
 syntax on
 filetype plugin on
@@ -22,6 +24,8 @@ set fileencoding=utf-8
 set fileformat=unix
 " disable mouse because who fucking needs that shit
 set mouse=
+" for firenvim
+set guifont=Comic\ Mono:h12
 
 " vim-plug fine shyt
 call plug#begin()
@@ -31,6 +35,8 @@ Plug 'qaptoR-nvim/chocolatier.nvim'
 Plug 'nvim-tree/nvim-web-devicons' 
 Plug 'ficcdaf/ashen.nvim'
 Plug 'llathasa-veleth/vim-brainfuck'
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+Plug 'lervag/vimtex'
 
 call plug#end()
 
@@ -39,3 +45,20 @@ set background=dark
 "silent! color chocolatier
 "silent! color retrobox
 silent! color ashen
+
+" disable BIG jumps everywhere (shift+up / shift+down act like plain arrows)
+map     <S-Up>   <Up>
+map     <S-Down> <Down>
+nmap    <S-Up>   <Up>
+nmap    <S-Down> <Down>
+imap    <S-Up>   <Up>
+imap    <S-Down> <Down>
+vmap    <S-Up>   <Up>
+vmap    <S-Down> <Down>
+xmap    <S-Up>   <Up>
+xmap    <S-Down> <Down>
+omap    <S-Up>   <Up>
+omap    <S-Down> <Down>
+cmap    <S-Up>   <Up>
+cmap    <S-Down> <Down>
+
