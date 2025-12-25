@@ -55,7 +55,7 @@ if status is-interactive
     alias kittyrc "nvim ~/.config/kitty/kitty.conf"
     alias srm "sudo rm"
     alias safexvnc "x11vnc -rfbauth ~/.vnc/passwd -localhost -noxdamage -nowf -noscr -xkb -repeat -shared"
-    alias sd_svcs "systemctl list-units --type=service --state=running"
+    alias svcs "systemctl list-units --type=service --state=running"
     alias wlanPwrSaveOn "sudo iw dev wlan0 set power_save on"
     alias wlanPwrSaveOff "sudo iw dev wlan0 set power_save off"
     alias cpuPwrSaveOn "sudo cpupower frequency-set -g powersave"
