@@ -1,6 +1,9 @@
 # ~/.config/fish/config.fish
 if status is-interactive
 
+    # here for redundancy
+    setxkbmap -option compose:ralt
+
 	# ENVIRONMENT VARIABLES
 	set -x EDITOR nvim
 	set -x TERMINAL alacritty
@@ -48,5 +51,14 @@ if status is-interactive
     alias apacherc "sudo -E nvim /etc/httpd/conf/httpd.conf"
     alias cgitrc "sudo -E nvim /etc/cgitrc"
     alias inspirc "sudo -E nvim /etc/inspircd/inspircd.conf"
-    alias caffeine "systemd-inhibit --what=handle-lid-switch sleep infinity"
+    alias wzrc "nvim ~/.wezterm.lua"
+    alias kittyrc "nvim ~/.config/kitty/kitty.conf"
+    alias srm "sudo rm"
+    alias safexvnc "x11vnc -rfbauth ~/.vnc/passwd -localhost -noxdamage -nowf -noscr -xkb -repeat -shared"
+    alias sd_svcs "systemctl list-units --type=service --state=running"
+    alias wlanPwrSaveOn "sudo iw dev wlan0 set power_save on"
+    alias wlanPwrSaveOff "sudo iw dev wlan0 set power_save off"
+    # AVD
+    set -x ANDROID_HOME /opt/android-sdk
+    set -x PATH $PATH $ANDROID_HOME/emulator $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
 end
