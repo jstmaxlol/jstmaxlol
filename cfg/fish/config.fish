@@ -58,8 +58,8 @@ if status is-interactive
     alias sd_svcs "systemctl list-units --type=service --state=running"
     alias wlanPwrSaveOn "sudo iw dev wlan0 set power_save on"
     alias wlanPwrSaveOff "sudo iw dev wlan0 set power_save off"
-    alias cpuPwrSave "sudo cpupower frequency-set -g powersave"
-    alias cpuPwrSave "sudo cpupower frequency-set -g schedutil"
+    alias cpuPwrSaveOn "sudo cpupower frequency-set -g powersave"
+    alias cpuPwrSaveOff "sudo cpupower frequency-set -g schedutil"
     # AVD
     set -x ANDROID_HOME /opt/android-sdk
     set -x PATH $PATH $ANDROID_HOME/emulator $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
