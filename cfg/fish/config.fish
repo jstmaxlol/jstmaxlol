@@ -59,7 +59,10 @@ if status is-interactive
     alias wlanPwrSaveOn "sudo iw dev wlan0 set power_save on"
     alias wlanPwrSaveOff "sudo iw dev wlan0 set power_save off"
     alias cpuPwrSaveOn "sudo cpupower frequency-set -g powersave"
-    alias cpuPwrSaveOff "sudo cpupower frequency-set -g schedutil"
+    alias cpuPwrSaveOff "sudo cpupower frequency-set -g performance"
+    alias syes "sudo systemctl start"
+    alias sno "sudo systemctl stop"
+    alias sst "sudo systemctl status"
     # AVD
     set -x ANDROID_HOME /opt/android-sdk
     set -x PATH $PATH $ANDROID_HOME/emulator $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
