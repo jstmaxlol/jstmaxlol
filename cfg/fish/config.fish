@@ -62,7 +62,13 @@ if status is-interactive
     alias cpuPwrSaveOff "sudo cpupower frequency-set -g performance"
     alias syes "sudo systemctl start"
     alias sno "sudo systemctl stop"
+    alias srel "sudo systemctl reload"
     alias sst "sudo systemctl status"
+    alias tsf "tailscale funnel"
+    alias freqinfo "cpupower frequency-info"
+    alias freqset "sudo cpupower frequency-set -u"
+    alias xcp "xclip -selection clipboard"
+    alias tmx tmux
     # AVD
     set -x ANDROID_HOME /opt/android-sdk
     set -x PATH $PATH $ANDROID_HOME/emulator $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools

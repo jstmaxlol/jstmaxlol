@@ -14,7 +14,12 @@ set $mod Mod4
 #set $term alacritty
 set $term kitty
 set $shell fish
+# font stuff
 set $jfont Iosevka
+set $jfont_size 8
+
+# RES BEFORE ANYTHING
+exec --no-startup-id x11-32-res
 
 # ------------------------
 # system & controls
@@ -118,7 +123,7 @@ floating_modifier $mod
 # -------------------------
 # borders / titlebars
 # -------------------------
-font pango:$jfont 9
+font pango:$jfont $jfont_size
 client.focused          #f82323 #0f0f0f #f82323 #0f0f0f
 client.focused_inactive #0f0f0f #0f0f0f #f82323 #0f0f0f
 client.unfocused        #0f0f0f #0f0f0f #f82323 #0f0f0f
@@ -130,12 +135,13 @@ client.urgent           #0f0f0f #0f0f0f #f82323 #0f0f0f
 bar {
     #status_command i3status
 	status_command ~/.config/i3/kurobar.sh
-    font pango:$jfont 9
+    font pango:$jfont $jfont_size
     position top
     colors {
         background #0f0f0f
         statusline #f82323
         separator  #f82323
+        
         focused_workspace  #0f0f0f #f82323 #0f0f0f
         active_workspace   #0f0f0f #f82323 #0f0f0f
         inactive_workspace #0f0f0f #0f0f0f #f82323
@@ -153,8 +159,8 @@ exec --no-startup-id ibus-daemon -drx
 exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -cursor_name left_ptr
 exec --no-startup-id xsetroot -solid "#1f1f1f" 
-exec --no-startup-id feh --bg-fill ~/Pictures/murasamBIG.png
 exec --no-startup-id picom
+exec --no-startup-id com.dec05eba.gpu_screen_recorder
 exec --no-startup-id kwalletd6
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
 exec --no-startup-id xinput set-prop "MOSART Semi. 2.4G Wireless Mouse" "libinput Accel Speed" -1
@@ -167,3 +173,10 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exit
 bindsym $mod+l exec i3lock
 
+# background
+#exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/murasamBIG.png
+#exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/3440615026x.png
+#exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/3442541938x.png
+exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/austin.png
+#exec --no-startup-id sleep 1 && linux-wallpaperengine --fps 15 --silent --scaling fill --disable-mouse --disable-parallax --screen-root eDP-1  --bg 3440615026
+#exec --no-startup-id sleep 1 && linux-wallpaperengine --fps 15 --silent --scaling fill --disable-mouse --disable-parallax --screen-root eDP-1 --bg 3442541938
