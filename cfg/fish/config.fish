@@ -1,76 +1,183 @@
-# ~/.config/fish/config.fish
-if status is-interactive
+# =========================
+# クロナのi3wmチエッフギ 
+# ==> maxwasmailed@proton.me
+# =========================
 
-    # here for redundancy
-    setxkbmap -option compose:ralt
+# -------------------------
+# mod key
+# -------------------------
+set $mod Mod4
 
-	# ENVIRONMENT VARIABLES
-	set -x EDITOR nvim
-	set -x TERMINAL alacritty
-	set -x VIMRUNTIME "/usr/share/nvim/runtime"
-    #set -x WINEPREFIX ~/winestuff/ps2018
-	set -x WINEARCH win64
-    export GTK_IM_MODULE=ibus
-    export QT_IM_MODULE=ibus
-    export XMODIFIERS=@im=ibus
+# -------------------------
+# default terminal & launcher
+# -------------------------
+#set $term alacritty
+set $term kitty
+set $shell fish
+# font stuff
+set $jfont Iosevka
+set $jfont_size 8
 
-	# ALIASES
-	alias v nvim
-    alias b bat
-	alias ff fastfetch
-	alias nf nfetch
-	alias src "source ~/.config/fish/config.fish"
-	alias vimrc "nvim ~/.vimrc"
-	alias frc "nvim ~/.config/fish/config.fish"
-	alias nvimrc "nvim ~/.config/nvim/init.vim"
-	alias ":q" exit
-	alias replasma "killall plasmashell && kstart5 plasmashell"
-	alias i3rc "nvim ~/.config/i3/config"
-	alias kurobarc "nvim ~/.config/i3/kurobar.sh"
-	alias jmdmenurc "sudo -E nvim /usr/bin/jmdmenu"
-	alias ghosttyrc "nvim ~/.config/ghostty/config"
-	alias alattyrc "nvim ~/.config/alacritty/alacritty.toml"
-	alias suv "sudo -E nvim"
-	alias ffrc "nvim ~/.config/fastfetch/config.jsonc"
-	alias cfr "java -jar /usr/bin/cfr.jar"
-	alias py "python"
-	alias drumz "drumseq ch ch h ch s ch h s -x -bpm=360"
-    alias dashbd-clock "tty-clock -s -c -C 1"
-    alias trexa "exa --tree --level=2 --icons"
-    alias tl trexa
-    alias swayrc "nvim ~/.config/sway/config"
-    alias ql qalc
-    alias rofi_ty1 "~/.config/rofi/launchers/type-1/launcher.sh"
-    alias tmuxrc "nvim ~/.tmux.conf"
-    # yes, i truly am *this* lazy btw
-    alias mkx makex
-    alias ts tailscale
-    alias md mkdir
-    alias arc aerc
-    alias arcarc "nvim ~/.config/aerc/aerc.conf"
-    alias apacherc "sudo -E nvim /etc/httpd/conf/httpd.conf"
-    alias cgitrc "sudo -E nvim /etc/cgitrc"
-    alias inspirc "sudo -E nvim /etc/inspircd/inspircd.conf"
-    alias wzrc "nvim ~/.wezterm.lua"
-    alias kittyrc "nvim ~/.config/kitty/kitty.conf"
-    alias srm "sudo rm"
-    alias safexvnc "x11vnc -rfbauth ~/.vnc/passwd -localhost -noxdamage -nowf -noscr -xkb -repeat -shared"
-    alias svcs "systemctl list-units --type=service --state=running"
-    alias wlanPwrSaveOn "sudo iw dev wlan0 set power_save on"
-    alias wlanPwrSaveOff "sudo iw dev wlan0 set power_save off"
-    alias cpuPwrSaveOn "sudo cpupower frequency-set -g powersave"
-    alias cpuPwrSaveOff "sudo cpupower frequency-set -g performance"
-    alias syes "sudo systemctl start"
-    alias sno "sudo systemctl stop"
-    alias srel "sudo systemctl reload"
-    alias sst "sudo systemctl status"
-    alias tsf "tailscale funnel"
-    alias freqinfo "cpupower frequency-info"
-    alias freqset "sudo cpupower frequency-set -u"
-    alias xcp "xclip -selection clipboard"
-    alias tmx tmux
-    # AVD
-    set -x ANDROID_HOME /opt/android-sdk
-    set -x PATH $PATH $ANDROID_HOME/emulator $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
-end
+# RES BEFORE ANYTHING
+exec --no-startup-id x11-32-res
 
+# ------------------------
+# system & controls
+# ------------------------
+bindsym Mod1+Space exec jmdmenu run
+bindsym $mod+BackSpace exec jmdmenu run
+bindsym $mod+Return exec $term
+#bindsym $mod+v exec jmdmenu clipbd
+bindsym $mod+period exec jmdmenu bmj
+bindsym $mod+Shift+c exec xcolor | jmdmenu
+bindsym $mod+e exec nemo
+# functions binds
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+# more accurate (1%/i)
+bindsym $mod+XF86MonBrightnessUp exec brightnessctl set +1%
+bindsym $mod+XF86MonBrightnessDown exec brightnessctl set 1%-
+# volume up / down
+bindsym XF86AudioRaiseVolume exec pamixer -i 5
+bindsym XF86AudioLowerVolume exec pamixer -d 5
+# more accurate (1%/i)
+bindsym $mod+XF86AudioRaiseVolume exec pamixer -i 1
+bindsym $mod+XF86AudioLowerVolume exec pamixer -d 1
+# mute speakers
+bindsym XF86AudioMute exec pamixer -t
+# mute mic
+bindsym XF86AudioMicMute exec pamixer --default-source -t
+
+# -------------------------
+# window management
+# -------------------------
+for_window [floating] resize set 672 432
+
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+bindsym $mod+q kill
+bindsym $mod+t floating toggle, resize set 672 432
+
+bindsym $mod+v split v
+bindsym $mod+h split h
+
+bindsym $mod+w layout toggle tabbed split
+
+bindsym $mod+Ctrl+Tab focus next
+bindsym $mod+Ctrl+Shift+Tab focus prev
+bindsym $mod+Tab exec i3-msg workspace next_on_output
+bindsym $mod+Shift+Tab exec i3-msg workspace prev_on_output
+
+# -------------------------
+# workspaces
+# -------------------------
+set $ws1 "1:f"
+set $ws2 "2:u"
+set $ws3 "3:c"
+set $ws4 "4:k"
+set $ws5 "5:my"
+set $ws6 "6:l"
+set $ws7 "7:i"
+set $ws8 "8:f"
+set $ws9 "9:e"
+
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+
+bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
+
+# -------------------------
+# i dont know where to put this crap
+# -------------------------
+focus_follows_mouse yes
+floating_modifier $mod
+
+# -------------------------
+# borders / titlebars
+# -------------------------
+font pango:$jfont $jfont_size
+client.focused          #f82323 #0f0f0f #f82323 #0f0f0f
+client.focused_inactive #0f0f0f #0f0f0f #f82323 #0f0f0f
+client.unfocused        #0f0f0f #0f0f0f #f82323 #0f0f0f
+client.urgent           #0f0f0f #0f0f0f #f82323 #0f0f0f
+
+# -------------------------
+# bar black + white (kurobar.sh)
+# -------------------------
+bar {
+    #status_command i3status
+	status_command ~/.config/i3/kurobar.sh
+    font pango:$jfont $jfont_size
+    position top
+    colors {
+        background #0f0f0f
+        statusline #f82323
+        separator  #f82323
+        
+        focused_workspace  #0f0f0f #f82323 #0f0f0f
+        active_workspace   #0f0f0f #f82323 #0f0f0f
+        inactive_workspace #0f0f0f #0f0f0f #f82323
+        urgent_workspace   #0f0f0f #0f0f0f #f82323
+    }
+}
+
+# -------------------------
+# startup
+# -------------------------
+exec --no-startup-id export GTK_USE_PORTAL=0
+exec --no-startup-id export XDG_CURRENT_DESKTOP=GNOME
+exec --no-startup-id sudo systemctl --user mask xdg-desktop-portal-kde.service
+exec --no-startup-id ibus-daemon -drx
+exec --no-startup-id nm-applet
+exec --no-startup-id xsetroot -cursor_name left_ptr
+exec --no-startup-id xsetroot -solid "#1f1f1f" 
+exec --no-startup-id picom
+#exec --no-startup-id com.dec05eba.gpu_screen_recorder
+exec --no-startup-id kwalletd6
+exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
+exec --no-startup-id xinput set-prop "MOSART Semi. 2.4G Wireless Mouse" "libinput Accel Speed" -1
+exec --no-startup-id blueman-applet
+
+# remap capslock to escape
+exec --no-startup-id setxkbmap -option caps:escape
+# compose key
+exec --no-startup-id setxkbmap -option compose:ralt
+
+
+# -------------------------
+# reload / restart / exit
+# -------------------------
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+e exit
+bindsym $mod+l exec i3lock
+
+# background
+#exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/murasamBIG.png
+#exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/3440615026x.png
+#exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/3442541938x.png
+exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/austin.png
+#exec --no-startup-id sleep 1 && linux-wallpaperengine --fps 15 --silent --scaling fill --disable-mouse --disable-parallax --screen-root eDP-1  --bg 3440615026
+#exec --no-startup-id sleep 1 && linux-wallpaperengine --fps 15 --silent --scaling fill --disable-mouse --disable-parallax --screen-root eDP-1 --bg 3442541938
