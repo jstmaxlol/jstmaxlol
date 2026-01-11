@@ -73,7 +73,7 @@ russian  -> plans to study
 - i have a ThinkPad L460 := {i5-6300U, 16GB RAM, 256GB SSD};
 ===============================================================================
 :=> politics (brief, superficial)
-- idealogy (that i consider myself to be most related to): anarcho-communism
+- political leaning (ideology) i relate to most: anarcho-communism
 < will add more stuff maybe .. >
 ===============================================================================
 - sidenote: i like a lot of music genres, a lot of edm & acid techno,
