@@ -5,32 +5,42 @@
 __/\__    _     _                        _ 
 \    /   (_)___| |_ _ __ ___   __ ___  _| | => gfx designer && software dev (‾◡◝)//
 /_  _\ cz| / __| __| '_ ` _ \ / _` \ \/ / | ☆ bit.ly/mx_info          ☆
-  \/     | \__ \ |_| | | | | | (_| |>  <|_| ☆ vi/vim/nvim user        ☆
-        _/ |___/\__|_| |_| |_|\__,_/_/\_(_)
+  \/     | \__ \ |_| | | | | | (_| |>  <|_| ☆ vi/vim/nvim lover       ☆
+        _/ |___/\__|_| |_| |_|\__,_/_/\_(_) ☆ archlinux+twm enjoyer   ☆
        |__/
 
 ===============================================================================
-=> social networks ( ﹁ ﹁ ) ~→
+:=> social networks ( ﹁ ﹁ ) ~→
 - linktree -> bit.ly/mx_info
 - twitter  -> @maxwasntaken
 - spotify  -> bit.ly/mx_sptfy
 - discord  -> @jstmaxlol
 ===============================================================================
-=> support me w(ﾟДﾟ)w
+:=> support me w(ﾟДﾟ)w
 - patreon   ♡♡ patreon.com/jstmax
 - paypal    ♡♡ bit.ly/mx_donate
 - 95Windows -> 95windows.rf.gd
 - MOTD      -> jstmaxlol.github.io/motd
 - lainHost  -> lainhost.ct.ws
 ===============================================================================
-=> programming languages (っ °Д °;)っ
-- C / C++
-- Python
+:=> programming languages (っ °Д °;)っ
+- C99-C23
+- C++11-C++23 (mostly)
 - Go
-- HTML/CSS | not programming languages; i know
+- PHP (kinda!)
+===scripting===
+- Vimscript
+- Python
+- Bash
+- Fish
+- Lua (learning more than anything else)
+===other misc languages===
+- HTML
+- CSS
 - JavaScript/TypeScript
+
 ===============================================================================
-=> languages i speak ヾ(≧▽≦*)o
+:=> languages i speak ヾ(≧▽≦*)o
 italian  -> native
 english  -> write and speak fluently(ish)
 japanese -> studying
@@ -46,14 +56,14 @@ russian  -> plans to study
 ===============================================================================
 - forum signature = czjstmax! : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>
 ===============================================================================
-=> a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
+:=> a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
 - all of my dotfiles -> github.com/jstmaxlol/jstmaxlol/
 ===============================================================================
-- i use Arch, BTW
-- i use i3, BTW
+- i use Arch Leenux, BTW™
+- i use i3wm, BTW™
 - i have a ThinkPad L460 := {i5-6300U, 16GB RAM, 256GB SSD};
 ===============================================================================
-- sidenote: i love a lot of music genres, a lot of edm & acid, hip-hop, punk,
+- sidenote: i like a lot of music genres, a lot of edm & acid, hip-hop, punk,
   ska and even jazz - if you too like experimenting with music, check out my
   spotify playlist(s)! (line #16)
 ```
