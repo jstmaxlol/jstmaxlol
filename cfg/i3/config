@@ -7,16 +7,19 @@
 # mod key
 # -------------------------
 set $mod Mod4
+set $mod_alt Mod1
 
 # -------------------------
-# default terminal & launcher
+# defaults
 # -------------------------
 #set $term alacritty
 set $term kitty
 set $shell fish
+set $browser librewolf
+set $filemgr nautilus
 # font stuff
 set $jfont Iosevka
-set $jfont_size 8
+set $jfont_size 9
 
 # RES BEFORE ANYTHING
 exec --no-startup-id x11-32-res
@@ -24,13 +27,15 @@ exec --no-startup-id x11-32-res
 # ------------------------
 # system & controls
 # ------------------------
-bindsym Mod1+Space exec jmdmenu run
 bindsym $mod+BackSpace exec jmdmenu run
+bindsym $mod_alt+Space exec jmdmenu run
+bindsym $mod+Shift+BackSpace exec jmdmenu raw
 bindsym $mod+Return exec $term
+bindsym $mod+Shift+b exec $browser
 #bindsym $mod+v exec jmdmenu clipbd
 bindsym $mod+period exec jmdmenu bmj
 bindsym $mod+Shift+c exec xcolor | jmdmenu
-bindsym $mod+e exec nemo
+bindsym $mod+e exec $filemgr
 # functions binds
 bindsym XF86MonBrightnessUp exec brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
@@ -47,11 +52,6 @@ bindsym $mod+XF86AudioLowerVolume exec pamixer -d 1
 bindsym XF86AudioMute exec pamixer -t
 # mute mic
 bindsym XF86AudioMicMute exec pamixer --default-source -t
-
-# remap capslock to escape
-exec --no-startup-id setxkbmap -option caps:escape
-# compose key
-exec --no-startup-id setxkbmap -option compose:ralt
 
 # -------------------------
 # window management
@@ -84,15 +84,15 @@ bindsym $mod+Shift+Tab exec i3-msg workspace prev_on_output
 # -------------------------
 # workspaces
 # -------------------------
-set $ws1 "1:f"
-set $ws2 "2:u"
-set $ws3 "3:c"
-set $ws4 "4:k"
-set $ws5 "5:my"
-set $ws6 "6:l"
-set $ws7 "7:i"
-set $ws8 "8:f"
-set $ws9 "9:e"
+set $ws1 "1の一"
+set $ws2 "2の二"
+set $ws3 "3の三"
+set $ws4 "4の死"
+set $ws5 "5の五"
+set $ws6 "6の六"
+set $ws7 "7の七"
+set $ws8 "8の八"
+set $ws9 "9の九"
 
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -133,20 +133,20 @@ client.urgent           #0f0f0f #0f0f0f #f82323 #0f0f0f
 # bar black + white (kurobar.sh)
 # -------------------------
 bar {
-    #status_command i3status
-	status_command ~/.config/i3/kurobar.sh
-    font pango:$jfont $jfont_size
-    position top
-    colors {
-        background #0f0f0f
-        statusline #f82323
-        separator  #f82323
-        
-        focused_workspace  #0f0f0f #f82323 #0f0f0f
-        active_workspace   #0f0f0f #f82323 #0f0f0f
-        inactive_workspace #0f0f0f #0f0f0f #f82323
-        urgent_workspace   #0f0f0f #0f0f0f #f82323
-    }
+#status_command i3status
+    status_command ~/.config/i3/kurobar.sh
+        font pango:$jfont $jfont_size
+        position top
+        colors {
+            background #0f0f0f
+                statusline #f82323
+                separator  #f82323
+
+                focused_workspace  #0f0f0f #f82323 #0f0f0f
+                active_workspace   #0f0f0f #f82323 #0f0f0f
+                inactive_workspace #0f0f0f #0f0f0f #f82323
+                urgent_workspace   #0f0f0f #0f0f0f #f82323
+        }
 }
 
 # -------------------------
@@ -160,11 +160,18 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -cursor_name left_ptr
 exec --no-startup-id xsetroot -solid "#1f1f1f" 
 exec --no-startup-id picom
-exec --no-startup-id com.dec05eba.gpu_screen_recorder
+#exec --no-startup-id com.dec05eba.gpu_screen_recorder
 exec --no-startup-id kwalletd6
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
 exec --no-startup-id xinput set-prop "MOSART Semi. 2.4G Wireless Mouse" "libinput Accel Speed" -1
 exec --no-startup-id blueman-applet
+exec --no-startup-id xfsettingsd
+
+# remap capslock to escape
+exec --no-startup-id setxkbmap -option caps:escape
+# compose key
+exec --no-startup-id setxkbmap -option compose:ralt
+
 
 # -------------------------
 # reload / restart / exit
