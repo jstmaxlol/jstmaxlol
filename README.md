@@ -16,8 +16,8 @@ __/\__    _     _                        _
 - systems architecture
 - language design
 - weird *nix stuff
-- audio stuff
-- electronic music and music more broadly
+- politics and philosophy
+- audio stuff and music (broadly)
 ===============================================================================
 :=> social networks ( ﹁ ﹁ ) ~→
 - linktree -> bit.ly/mx_info
@@ -72,7 +72,11 @@ russian  -> plans to study
 - i use i3wm, BTW™
 - i have a ThinkPad L460 := {i5-6300U, 16GB RAM, 256GB SSD};
 ===============================================================================
-- sidenote: i like a lot of music genres, a lot of edm & acid, hip-hop, punk,
-  ska and even jazz - if you too like experimenting with music, check out my
-  spotify playlist(s)! (line #16)
+:=> politics (brief, superficial)
+- idealogy (that i consider myself to be most related to): anarcho-communism
+< will add more stuff maybe .. >
+===============================================================================
+- sidenote: i like a lot of music genres, a lot of edm & acid techno,
+  hip-hop, punk, ska and even jazz - if you too like experimenting with music,
+  check out my spotify playlist(s)! (line #16)
 ```
