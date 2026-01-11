@@ -10,6 +10,15 @@ __/\__    _     _                        _
        |__/
 
 ===============================================================================
+:=> interests
+<including but not limited to>
+- low-level *anything*
+- systems architecture
+- language design
+- weird *nix stuff
+- audio stuff
+- electronic music and music more broadly
+===============================================================================
 :=> social networks ( ﹁ ﹁ ) ~→
 - linktree -> bit.ly/mx_info
 - twitter  -> @maxwasntaken
@@ -33,7 +42,7 @@ __/\__    _     _                        _
 - Python
 - Bash
 - Fish
-- Lua (learning more than anything else)
+- Lua (learning / tinkering)
 ===other misc languages===
 - HTML
 - CSS
