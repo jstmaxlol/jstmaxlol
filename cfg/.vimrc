@@ -94,3 +94,8 @@ omap    <S-Down> <Down>
 cmap    <S-Up>   <Up>
 cmap    <S-Down> <Down>
 
+augroup nasm_inc
+    autocmd!
+    autocmd BufRead,BufNewFile *.inc set filetype=nasm
+augroup END
+
