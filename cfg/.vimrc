@@ -39,6 +39,8 @@ call plug#begin()
     Plug 'lervag/vimtex'
     Plug 'vim-denops/denops.vim'
     Plug 'vim-skk/skkeleton'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'windwp/nvim-autopairs'
 
 call plug#end()
 
@@ -71,7 +73,6 @@ augroup skkeleton-initialize-pre
   autocmd User skkeleton-initialize-pre call s:skkeleton_init()
 augroup END
 
-
 " theme
 set background=dark
 "silent! color chocolatier
@@ -98,4 +99,26 @@ augroup nasm_inc
     autocmd!
     autocmd BufRead,BufNewFile *.inc set filetype=nasm
 augroup END
+
+lua << EOF
+require('nvim-autopairs').setup{}
+EOF
+
+" === coc.nvim config ===
+let g:coc_global_extensions = ['coc-clangd', 'coc-html', 'coc-tsserver', 'coc-sh', 'coc-css', 'coc-pyright', 'coc-go']
+"
+hi CocErrorSign guifg=Red
+hi CocErrorVirtualText guifg=Red
+hi CocErrorHighlight cterm=underline gui=undercurl guisp=Red
+" use undercurl for errors
+autocmd CursorHold * silent call CocActionAsync('highlight')
+" show diagnostics thingy on cursor hold
+"autocmd CursorHold * silent call CocActionAsync('doHover')
+" <tab> triggers completion and navigates in completion menu
+inoremap <silent><expr> <TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <silent><expr> <S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+" <CR> confirms completion
+inoremap <silent><expr> <CR> pumvisible() ? coc#_select_confirm() : "\<CR>"
+" function signature while typing
+autocmd CursorHoldI * silent call CocActionAsync('showSignatureHelp')
 

@@ -74,6 +74,7 @@ if status is-interactive
     alias ":C" clear
     alias why witr
     alias dusg "sudo du -xh / --max-depth=1 2>/dev/null | sort -h"
+    alias mk make
     # AVD
     set -x ANDROID_HOME /opt/android-sdk
     set -x PATH $PATH $ANDROID_HOME/emulator $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools

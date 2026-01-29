@@ -52,6 +52,8 @@ bindsym $mod+XF86AudioLowerVolume exec pamixer -d 1
 bindsym XF86AudioMute exec pamixer -t
 # mute mic
 bindsym XF86AudioMicMute exec pamixer --default-source -t
+# stuff
+bindsym $mod+Shift+Escape exec io.missioncenter.MissionCenter
 
 # -------------------------
 # window management
@@ -69,6 +71,7 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 bindsym $mod+q kill
+bindsym $mod_alt+F4 kill
 bindsym $mod+t floating toggle, resize set 672 432
 
 bindsym $mod+v split v
@@ -166,6 +169,7 @@ exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapp
 exec --no-startup-id xinput set-prop "MOSART Semi. 2.4G Wireless Mouse" "libinput Accel Speed" -1
 exec --no-startup-id blueman-applet
 exec --no-startup-id xfsettingsd
+exec --no-startup-id clangd
 
 # remap capslock to escape
 exec --no-startup-id setxkbmap -option caps:escape
