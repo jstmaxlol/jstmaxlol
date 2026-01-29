@@ -52,8 +52,8 @@ __/\__    _     _                        _
 :=> languages i speak ヾ(≧▽≦*)o
 italian  -> native
 english  -> write and speak fluently(ish)
+german   -> studying
 japanese -> studying
-german   -> plans to study
 russian  -> plans to study
 ===============================================================================
            _                __
