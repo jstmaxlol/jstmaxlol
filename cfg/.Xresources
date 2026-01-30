@@ -5,14 +5,13 @@
 XTerm*renderFont: true
 XTerm*faceName: Iosevka
 XTerm*faceSize: 12
-
 XTerm*antialias: true
 XTerm*hinting: true
-
 XTerm*utf8: true
 XTerm*utf8Fonts: true
 
 XTerm*internalBorder: 32
+XTerm*selectToClipboard: true
 
 XTerm*background:           #0f0f0f
 XTerm*foreground:           #d0d0d0
