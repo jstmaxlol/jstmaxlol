@@ -1,0 +1,38 @@
+! xterm config
+! for the colors, i asked a clanker to copy
+! the Afterglow theme i am using on kitty
+
+XTerm*renderFont: true
+XTerm*faceName: Iosevka
+XTerm*faceSize: 12
+
+XTerm*antialias: true
+XTerm*hinting: true
+
+XTerm*utf8: true
+XTerm*utf8Fonts: true
+
+XTerm*internalBorder: 32
+
+XTerm*background:           #0f0f0f
+XTerm*foreground:           #d0d0d0
+XTerm*cursorColor:          #d0d0d0
+XTerm*color0:               #151515
+XTerm*color8:               #505050
+XTerm*color1:               #f82323
+XTerm*color9:               #f82323
+XTerm*color2:               #7e8d50
+XTerm*color10:              #7e8d50
+XTerm*color3:               #e5b566
+XTerm*color11:              #e5b566
+XTerm*color4:               #6c99ba
+XTerm*color12:              #6c99ba
+XTerm*color5:               #9e4e85
+XTerm*color13:              #9e4e85
+XTerm*color6:               #7dd5cf
+XTerm*color14:              #7dd5cf
+XTerm*color7:               #d0d0d0
+XTerm*color15:              #f5f5f5
+XTerm*selectBackground:     #9a0a0a
+XTerm*selectForeground:     #d0d0d0
+
