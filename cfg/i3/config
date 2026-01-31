@@ -31,6 +31,7 @@ bindsym $mod+BackSpace exec jmdmenu run
 bindsym $mod_alt+Space exec jmdmenu run
 bindsym $mod+Shift+BackSpace exec jmdmenu raw
 bindsym $mod+Return exec $term
+bindsym $mod+Shift+Return exec xterm
 bindsym $mod+Shift+b exec $browser
 #bindsym $mod+v exec jmdmenu clipbd
 bindsym $mod+period exec jmdmenu bmj
@@ -169,7 +170,6 @@ exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapp
 exec --no-startup-id xinput set-prop "MOSART Semi. 2.4G Wireless Mouse" "libinput Accel Speed" -1
 exec --no-startup-id blueman-applet
 exec --no-startup-id xfsettingsd
-exec --no-startup-id clangd
 
 # remap capslock to escape
 exec --no-startup-id setxkbmap -option caps:escape

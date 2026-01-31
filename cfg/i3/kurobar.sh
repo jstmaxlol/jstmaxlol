@@ -11,6 +11,20 @@ while true; do
         bat="N/A"
     fi
 
+    # --- battery charge status --- silly ---
+    status=$(cat /sys/class/power_supply/BAT*/status)
+
+    if [[ "$status" == "Charging" && "$bat" -lt 70 ]]; then
+        charge_status="++ing~!"
+    elif [[ "$status" == "Charging" && "$bat" -ge 70 ]]; then
+        charge_status="++ing but.. i'm full~~"
+    elif [[ "$status" == "Discharging" && "$bat" -lt 40 ]]; then
+        charge_status="++ me~~!"
+    else
+        charge_status="--ing"
+    fi
+
+
     # --- ram usage in gb ---
     mem_used=$(free -g | awk '/^Mem:/ {print $3}')
     mem_total=$(free -g | awk '/^Mem:/ {print $2}')
@@ -39,7 +53,7 @@ while true; do
     dt=$(date '+%Y年%m月%d日 %H時%M分%S秒')
 
     # --- print bar line ---
-    echo "vol.$volume% | bat.$bat% | bri.$bright | lan.$localip | pub.$pubip | "$mem_used"/"$mem_total"gb | $dt"
+    echo "vol.$volume% | $charge_status ($bat%) | bri.$bright | lan.$localip | pub.$pubip | "$mem_used"/"$mem_total"gb | $dt"
 
     sleep 0.01
 done

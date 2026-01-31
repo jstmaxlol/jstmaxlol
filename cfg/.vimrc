@@ -1,6 +1,9 @@
 " vimrc fine shyt
 
+let g:editorconfig = 0
+filetype plugin on
 " tabs are either 4 or nada
+filetype indent off
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -8,7 +11,6 @@ set exrc secure
 set virtualedit=block
 " c-o-l-o-r-s-!
 syntax on
-filetype plugin on
 " useful (i dont even use this anymore)
 set backspace=indent,eol,start
 nnoremap <C-S> :w<CR>
@@ -27,6 +29,9 @@ set mouse=
 " for firenvim
 set guifont=Comic\ Mono:h12
 
+"add time at the right of status bar thing
+set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P\ %{strftime(\"%Y年%m月%d日\ %H時%M分%S秒\")}
+
 " vim-plug fine shyt
 call plug#begin()
 
@@ -41,6 +46,7 @@ call plug#begin()
     Plug 'vim-skk/skkeleton'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'windwp/nvim-autopairs'
+    Plug 'zenlang/zen.vim'
 
 call plug#end()
 
@@ -121,4 +127,12 @@ inoremap <silent><expr> <S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 inoremap <silent><expr> <CR> pumvisible() ? coc#_select_confirm() : "\<CR>"
 " function signature while typing
 autocmd CursorHoldI * silent call CocActionAsync('showSignatureHelp')
+
+" indentation stuff for js/ts because i guess so
+autocmd FileType javascript,typescript setlocal shiftwidth=4 tabstop=4 softtabstop=4
+autocmd FileType javascript,typescript setlocal indentexpr=
+
+" zen-c filetype detection (w zuhaitz)
+au BufRead,BufNewFile *.zc set filetype=zen
+
 
