@@ -10,7 +10,7 @@ __/\__    _     _                        _
        |__/
 
 ===============================================================================
-:=> interests
+:= interests
 <including but not limited to>
 - low-level *anything*
 - systems architecture
@@ -19,20 +19,20 @@ __/\__    _     _                        _
 - politics and philosophy
 - audio stuff and music (broadly)
 ===============================================================================
-:=> social networks ( ﹁ ﹁ ) ~→
+:= social networks ( ﹁ ﹁ ) ~→
 - linktree -> bit.ly/mx_info
 - twitter  -> @maxwasntaken
 - spotify  -> bit.ly/mx_sptfy
 - discord  -> @jstmaxlol
 ===============================================================================
-:=> support me w(ﾟДﾟ)w
+:= support me w(ﾟДﾟ)w
 - patreon   ♡♡ patreon.com/jstmax
 - paypal    ♡♡ bit.ly/mx_donate
 - 95Windows -> 95windows.rf.gd
 - MOTD      -> jstmaxlol.github.io/motd
 - lainHost  -> lainhost.ct.ws
 ===============================================================================
-:=> programming languages (っ °Д °;)っ
+:= programming languages (っ °Д °;)っ
 - C99-C23
 - C++11-C++23 (mostly)
 - Go
@@ -49,7 +49,7 @@ __/\__    _     _                        _
 - JavaScript/TypeScript
 
 ===============================================================================
-:=> languages i speak ヾ(≧▽≦*)o
+:= languages i speak ヾ(≧▽≦*)o
 italian  -> native
 english  -> write and speak fluently(ish)
 german   -> studying
@@ -63,16 +63,16 @@ russian  -> plans to study
  \___/_/\_\\__|_|  \__,_/_/
 
 ===============================================================================
-- forum signature = czjstmax! : <jstmaxlol@disroot.org>, <maxwasmailed@proton.me>
+- forum signature = czjstmax! : <jstmaxlol at disroot dot org>
 ===============================================================================
-:=> a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
+:= a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
 - all of my dotfiles -> github.com/jstmaxlol/jstmaxlol/
 ===============================================================================
 - i use Arch Leenux, BTW™
 - i use i3wm, BTW™
 - i have a ThinkPad L460 := {i5-6300U, 16GB RAM, 256GB SSD};
 ===============================================================================
-:=> politics (brief, superficial)
+:= politics (brief, superficial)
 - political leaning (ideology) i relate to most: anarcho-communism
 < will add more stuff maybe .. >
 ===============================================================================
