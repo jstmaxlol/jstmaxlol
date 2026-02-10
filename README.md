@@ -1,5 +1,4 @@
-<!-- ![neojm_konna_banner](https://github.com/user-attachments/assets/651357f5-ed85-4e07-ae0e-eec74d5f1081) -->
-<img width="3840" height="960" alt="_nosik_comm_banner" src="https://github.com/user-attachments/assets/e8ed97f9-8792-46b3-bc7c-c13e5b006fbc" />
+<img width="3840" height="960" alt="_nosik_comm_banner" src="https://github.com/user-attachments/assets/1784c672-772e-41fd-a5d1-031a526cc803" />
 
 ```
 __/\__    _     _                        _ 
