@@ -112,6 +112,7 @@ EOF
 
 " === coc.nvim config ===
 let g:coc_global_extensions = ['coc-clangd', 'coc-html', 'coc-tsserver', 'coc-sh', 'coc-css', 'coc-pyright', 'coc-go']
+let g:coc_user_config = {'clangd.inlayHints.enable': v:false}
 "
 hi CocErrorSign guifg=Red
 hi CocErrorVirtualText guifg=Red
@@ -134,5 +135,4 @@ autocmd FileType javascript,typescript setlocal indentexpr=
 
 " zen-c filetype detection (w zuhaitz)
 au BufRead,BufNewFile *.zc set filetype=zen
-
 
