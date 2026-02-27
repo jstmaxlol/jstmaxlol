@@ -59,7 +59,9 @@ bindsym $mod+Shift+Escape exec io.missioncenter.MissionCenter
 # -------------------------
 # window management
 # -------------------------
-for_window [floating] resize set 672 432
+workspace_layout tabbed
+
+for_window [floating] resize set 700 450
 
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
