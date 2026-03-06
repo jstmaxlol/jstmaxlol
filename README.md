@@ -42,10 +42,12 @@ __/\__    _     _                        _
 - Bash
 - Fish
 - Lua (learning / tinkering)
-===other misc languages===
+===other misc/bad languages===
 - HTML
 - CSS
 - JavaScript/TypeScript
+- Java
+- C# (kinda)
 
 ===============================================================================
 := languages i speak ヾ(≧▽≦*)o
