@@ -28,6 +28,9 @@ set fileformat=unix
 set mouse=
 " for firenvim
 set guifont=Comic\ Mono:h12
+:command! Nobg hi Normal guibg=NONE ctermbg=NONE
+let mapleader = ","
+vnoremap <leader>/ :<C-U>s/^/\/\/ /<CR>:nohl<CR><esc>
 
 "add time at the right of status bar thing
 set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P\ %{strftime(\"%Y年%m月%d日\ %H時%M分%S秒\")}

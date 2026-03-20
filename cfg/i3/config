@@ -184,7 +184,7 @@ exec --no-startup-id setxkbmap -option compose:ralt
 # -------------------------
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exit
-bindsym $mod+l exec i3lock
+bindsym $mod+l exec slock
 
 # background
 #exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/murasamBIG.png
