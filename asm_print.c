@@ -3,7 +3,8 @@
 
 void dprint(const char* str);
 
-int main(void) {
+int main(void)
+{
     const char* message = "Hello, World!";
 
     dprint(message);
@@ -11,7 +12,8 @@ int main(void) {
     return 0;
 }
 
-void dprint(const char* str) {
+void dprint(const char* str)
+{
     size_t len = strlen(str);
 
     asm volatile (
