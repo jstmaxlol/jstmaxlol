@@ -60,13 +60,31 @@ if status is-interactive
     alias wlanPwrSaveOff "sudo iw dev wlan0 set power_save off"
     alias cpuPwrSaveOn "sudo cpupower frequency-set -g powersave"
     alias cpuPwrSaveOff "sudo cpupower frequency-set -g performance"
-    alias syes "sudo systemctl start"
-    alias sno "sudo systemctl stop"
-    alias srel "sudo systemctl reload"
-    alias sst "sudo systemctl status"
+    # sudo systemctl * {
+        alias starts "sudo systemctl start"
+        alias ustarts "systemctl --user start"
+
+        alias stops "sudo systemctl stop"
+        alias ustops "systemctl --user stop"
+
+        alias reloads "sudo systemctl reload"
+        alias ureloads "systemctl --user reload"
+
+        alias restarts "sudo systemctl restart"
+        alias urestarts "systemctl --user restart"
+
+        alias statuses "sudo systemctl status"
+        alias ustatuses "systemctl --user status"
+
+        alias enables "sudo systemctl enable"
+        alias uenables "systemctl --user enable"
+
+        alias disables "sudo systemctl disable"
+        alias udisables "systemctl --user disable"
+    # }
     alias tsf "tailscale funnel"
-    alias freqinfo "cpupower frequency-info"
-    alias freqset "sudo cpupower frequency-set -u"
+    alias finf "cpupower frequency-info"
+    alias fset "sudo cpupower frequency-set -u"
     alias xcp "xclip -selection clipboard"
     alias tmx tmux
     alias bye "systemctl poweroff"
@@ -75,6 +93,14 @@ if status is-interactive
     alias why witr
     alias dusg "sudo du -xh / --max-depth=1 2>/dev/null | sort -h"
     alias mk make
+    alias nmc 'nmcli -p'
+    alias vib 'busybox vi'
+    alias gitweb 'git instaweb --httpd=webrick'
+    alias doscc 'x86_64-w64-mingw32-cc'
+    alias whatson 'sudo lsof -i'
+    alias m make
+    alias grubrc 'sudo -E nvim /etc/default/grub'
+    alias regrub 'sudo grub-mkconfig -o /boot/grub/grub.cfg'
     # AVD
     set -x ANDROID_HOME /opt/android-sdk
     set -x PATH $PATH $ANDROID_HOME/emulator $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
