@@ -55,6 +55,7 @@ bindsym XF86AudioMute exec pamixer -t
 bindsym XF86AudioMicMute exec pamixer --default-source -t
 # stuff
 bindsym $mod+Shift+Escape exec io.missioncenter.MissionCenter
+bindsym $mod+End exec boomer
 
 # -------------------------
 # window management
@@ -167,14 +168,15 @@ exec --no-startup-id xsetroot -cursor_name left_ptr
 exec --no-startup-id xsetroot -solid "#1f1f1f" 
 exec --no-startup-id picom
 #exec --no-startup-id com.dec05eba.gpu_screen_recorder
-exec --no-startup-id kwalletd6
+#exec --no-startup-id kwalletd6
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
 exec --no-startup-id xinput set-prop "MOSART Semi. 2.4G Wireless Mouse" "libinput Accel Speed" -1
 exec --no-startup-id blueman-applet
 exec --no-startup-id xfsettingsd
 
 # remap capslock to escape
-exec --no-startup-id setxkbmap -option caps:escape
+#exec --no-startup-id setxkbmap -option caps:escape
+# ^^^^^^^ not needed anymore (cornev4)
 # compose key
 exec --no-startup-id setxkbmap -option compose:ralt
 
@@ -193,3 +195,4 @@ bindsym $mod+l exec slock
 exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/austin.png
 #exec --no-startup-id sleep 1 && linux-wallpaperengine --fps 15 --silent --scaling fill --disable-mouse --disable-parallax --screen-root eDP-1  --bg 3440615026
 #exec --no-startup-id sleep 1 && linux-wallpaperengine --fps 15 --silent --scaling fill --disable-mouse --disable-parallax --screen-root eDP-1 --bg 3442541938
+
