@@ -2,7 +2,7 @@
 
 int main(int argc, char **argv)
 {
-    if (argc >= 2) {
+    if (argc > 1) {
         char *grammar = (argc > 2)? "arguments" : "argument";
 
         printf("%d %s found. %s won't be checked.\n", argc-1, grammar, grammar);
