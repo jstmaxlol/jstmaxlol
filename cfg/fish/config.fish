@@ -1,8 +1,11 @@
 # ~/.config/fish/config.fish
 if status is-interactive
 
-    # here for redundancy
-    setxkbmap -option compose:ralt
+    keychain id_ed25519
+    keychain D9B423C43C7416D7
+    source ~/.keychain/(hostname)-fish
+
+    set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 
 	# ENVIRONMENT VARIABLES
 	set -x EDITOR nvim
