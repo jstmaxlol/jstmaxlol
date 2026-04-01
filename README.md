@@ -66,7 +66,8 @@ russian  -> plans to study
 ===============================================================================
 - forum signature = czjstmax! : <jstmaxlol at disroot dot org>
 ===============================================================================
-:= a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo, check it out!
+:= a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo,
+   check it out!
 - all of my dotfiles -> github.com/jstmaxlol/jstmaxlol/
 ===============================================================================
 - i use Arch Leenux, BTW™
