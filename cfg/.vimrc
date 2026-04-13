@@ -32,8 +32,14 @@ set guifont=Comic\ Mono:h12
 let mapleader = ","
 vnoremap <leader>/ :<C-U>s/^/\/\/ /<CR>:nohl<CR><esc>
 
+" the coolest regex-es you'll see (fake as fuck)
+command! RmComments %s/\s*\/\/\s*.*//
+
 "add time at the right of status bar thing
 set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P\ %{strftime(\"%Y年%m月%d日\ %H時%M分%S秒\")}
+
+" for vim-polyglot
+set nocompatible
 
 " vim-plug fine shyt
 call plug#begin()
@@ -50,6 +56,8 @@ call plug#begin()
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'windwp/nvim-autopairs'
     Plug 'zenlang/zen.vim'
+    Plug 'sheerun/vim-polyglot'
+    Plug 'phanviet/vim-monokai-pro'
 
 call plug#end()
 
@@ -86,7 +94,8 @@ augroup END
 set background=dark
 "silent! color chocolatier
 "silent! color retrobox
-silent! color ashen
+"silent! color ashen
+silent! color monokai_pro
 
 " disable BIG jumps everywhere (shift+up / shift+down act like plain arrows)
 map     <S-Up>   <Up>

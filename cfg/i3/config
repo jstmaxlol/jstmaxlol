@@ -18,7 +18,7 @@ set $shell fish
 set $browser librewolf
 set $filemgr nautilus
 # font stuff
-set $jfont Iosevka
+set $jfont azuki_font
 set $jfont_size 9
 
 # RES BEFORE ANYTHING

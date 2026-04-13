@@ -3,8 +3,8 @@
 # -------------------------
 # configuration
 # -------------------------
-#DMENU_FN="chirufont-10,Noto Color Emoji-10"
-DMENU_FN="Iosevka-10:Noto Emoji-10"
+DMENU_FN="azuki_font-10,chirufont-10,Noto Color Emoji-10"
+#DMENU_FN="Iosevka-10:Noto Emoji-10"
 DMENU_NB="#0f0f0f"   # normal background
 DMENU_NF="#f82323"   # normal foreground
 DMENU_SB="#f82323"   # selected background
