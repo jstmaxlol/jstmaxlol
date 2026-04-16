@@ -97,6 +97,7 @@ call plug#begin()
     Plug 'kylechui/nvim-surround'
     Plug 'numToStr/Comment.nvim'
     Plug 'nvim-lualine/lualine.nvim'
+    Plug 'akinsho/bufferline.nvim'
 
 call plug#end()
 " -------- 'P ---------
@@ -155,6 +156,20 @@ set background=dark
 silent! color ashen
 "silent! color monokai_pro
 " -------- 'T ---------
+
+lua << EOF
+    require("bufferline").setup{
+        options = {
+            themable = true,
+        }
+    }
+EOF
+
+nnoremap <leader>t :enew<CR>
+nnoremap <leader>q :BufferLinePickClose<CR>
+nnoremap <Tab> :BufferLineCycleNext<CR>
+nnoremap <S-Tab> :BufferLineCyclePrev<CR>
+nnoremap <leader>pick :BufferLinePick<CR>
 
 " -------- 'd ---------
 " disable BIG jumps everywhere (shift+up / shift+down act like plain arrows)
