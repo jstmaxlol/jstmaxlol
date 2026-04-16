@@ -22,6 +22,7 @@ if status is-interactive
     alias b bat
 	alias ff fastfetch
 	alias nf nfetch
+    alias lg lazygit
 	alias src "source ~/.config/fish/config.fish"
 	alias vimrc "nvim ~/.vimrc"
 	alias frc "nvim ~/.config/fish/config.fish"
@@ -104,6 +105,11 @@ if status is-interactive
     alias m make
     alias grubrc 'sudo -E nvim /etc/default/grub'
     alias regrub 'sudo grub-mkconfig -o /boot/grub/grub.cfg'
+    alias em 'emacs -nw'
+    alias a2c 'aria2c -x 16 -s 16 -k 1M -c'
+    alias a2d 'aria2c --enable-rpc'
+    alias sign 'gpg --sign'
+    alias detach-sign 'gpg --detach-sign'
     # AVD
     set -x ANDROID_HOME /opt/android-sdk
     set -x PATH $PATH $ANDROID_HOME/emulator $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
