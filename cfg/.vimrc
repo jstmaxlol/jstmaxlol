@@ -21,6 +21,9 @@ set shiftwidth=4
 set expandtab
 set exrc secure
 set virtualedit=block
+" layout-ish stuff
+set splitright splitbelow
+nnoremap <C-w>n :vnew<CR>
 " c-o-l-o-r-s-!
 syntax on
 " useful (i dont even use this anymore)
@@ -347,3 +350,15 @@ lua << EOF
     })
 EOF
 
+lua << EOF
+local toggle = true
+
+vim.keymap.set("n", "<C-w>n", function()
+  if toggle then
+    vim.cmd("vnew") -- right
+  else
+    vim.cmd("new")  -- bottom
+  end
+  toggle = not toggle
+end, { silent = true })
+EOF
