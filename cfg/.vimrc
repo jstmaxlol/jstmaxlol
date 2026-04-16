@@ -12,41 +12,48 @@
 " -------------------------------------------
 
 " -------- 'a ---------
-let g:editorconfig = 0
+" file settings
 filetype plugin on
-" tabs are either 4 or nada
 filetype indent off
+set encoding=utf-8
+set fileencoding=utf-8
+set fileformat=unix
+" config stuff
+let g:editorconfig = 0
+set exrc secure
+" tab sets
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set exrc secure
-set virtualedit=block
 " layout-ish stuff
 set splitright splitbelow
 nnoremap <C-w>n :vnew<CR>
-" c-o-l-o-r-s-!
-syntax on
-" useful (i dont even use this anymore)
+" more commodities set
+set virtualedit=block
 set backspace=indent,eol,start
+" i dont really do C-S anymore
+" but it's here as a fallback 
+" in case my muscle memory gets
+" un-vimmed from idk an incident xd
 nnoremap <C-S> :w<CR>
 inoremap <C-S> <Esc>:w<CR>a
+" because fuck C-\ C-n
+" i use :term too much lol
 tnoremap <A-Esc> <C-\><C-n>
+syntax on
+
 " -------- 'b ---------
 " i set this while crying because vim on windows sucks so much
 " kinda useless though nvim suxx so this is still useful
 " relative line numbers for life
 set nu rnu cursorline
-" i forgor
-set encoding=utf-8
-set fileencoding=utf-8
-set fileformat=unix
-" disable mouse because who fucking needs that shit
+" disable mouse because who fucking needs that shit HAH
 set mouse=
 " for firenvim
-set guifont=Comic\ Mono:h12
+set guifont=Iosevka:h12
 :command! Nobg hi Normal guibg=NONE ctermbg=NONE
+" leader
 let mapleader = ","
-
 
 " -------- 'c ---------
 command! Src source ~/.vimrc
@@ -362,3 +369,4 @@ vim.keymap.set("n", "<C-w>n", function()
   toggle = not toggle
 end, { silent = true })
 EOF
+
