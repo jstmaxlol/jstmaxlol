@@ -1,4 +1,4 @@
-<img width="3840" height="960" alt="__POST___nosik_comm_banner" src="https://github.com/user-attachments/assets/bd78ac10-b376-4e6d-8a85-dda1d44876f9" />
+<img width="3840" height="960" alt="cz_banner" src="https://github.com/user-attachments/assets/3a43e97f-61e2-434b-97b3-1aa0f29aec26" />
 
 ```
 __/\__    _     _                        _                                         
