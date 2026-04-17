@@ -1,12 +1,12 @@
 <img width="3840" height="960" alt="__POST___nosik_comm_banner" src="https://github.com/user-attachments/assets/bd78ac10-b376-4e6d-8a85-dda1d44876f9" />
 
 ```
-__/\__    _     _                        _ 
+__/\__    _     _                        _                                         
 \    /   (_)___| |_ _ __ ___   __ ___  _| | => gfx designer && software dev (‾◡◝)//
-/_  _\ cz| / __| __| '_ ` _ \ / _` \ \/ / | ☆ bit.ly/mx_info          ☆
-  \/     | \__ \ |_| | | | | | (_| |>  <|_| ☆ vi/vim/nvim lover       ☆
-        _/ |___/\__|_| |_| |_|\__,_/_/\_(_) ☆ archlinux+twm enjoyer   ☆
-       |__/
+/_  _\ cz| / __| __| '_ ` _ \ / _` \ \/ / | ☆ bit.ly/mx_info                      ☆
+  \/     | \__ \ |_| | | | | | (_| |>  <|_| ☆ vi/vim/nvim lover                   ☆
+        _/ |___/\__|_| |_| |_|\__,_/_/\_(_) ☆ arch+i3wm fanboy                    ☆
+       |__/                                                                        
 
 ===============================================================================
 := interests
@@ -64,10 +64,10 @@ russian  -> plans to study
  \___/_/\_\\__|_|  \__,_/_/
 
 ===============================================================================
-- forum signature = czjstmax! : <jstmaxlol at disroot dot org>
+- forum signature = czjstmax : <jstmaxlol at disroot dot org>
 ===============================================================================
-:= a lot of other stuff can be found in my jstmaxlol/jstmaxlol repo,
-   check it out!
+:= a lot of other stuff can be found in my
+   jstmaxlol/jstmaxlol repo, check it out!
 - all of my dotfiles -> github.com/jstmaxlol/jstmaxlol/
 ===============================================================================
 - i use Arch Leenux, BTW™
@@ -82,3 +82,4 @@ russian  -> plans to study
   hip-hop, punk, ska and even jazz - if you too like experimenting with music,
   check out my spotify playlist(s)! (line #16)
 ```
+
