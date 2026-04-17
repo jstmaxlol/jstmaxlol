@@ -1,7 +1,7 @@
-# =========================
-# クロナのi3wmチエッフギ 
-# ==> maxwasmailed@proton.me
-# =========================
+# ===============================
+#     クロナのi3wmチエッフギ 
+# <jstmaxlol at disroot dot org>
+# ===============================
 
 # -------------------------
 # mod key
@@ -175,7 +175,7 @@ exec --no-startup-id blueman-applet
 exec --no-startup-id xfsettingsd
 
 # remap capslock to escape
-#exec --no-startup-id setxkbmap -option caps:escape
+exec --no-startup-id setxkbmap -option caps:escape
 # ^^^^^^^ not needed anymore (cornev4)
 # compose key
 exec --no-startup-id setxkbmap -option compose:ralt
@@ -193,6 +193,4 @@ bindsym $mod+l exec slock
 #exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/3440615026x.png
 #exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/3442541938x.png
 exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/austin.png
-#exec --no-startup-id sleep 1 && linux-wallpaperengine --fps 15 --silent --scaling fill --disable-mouse --disable-parallax --screen-root eDP-1  --bg 3440615026
-#exec --no-startup-id sleep 1 && linux-wallpaperengine --fps 15 --silent --scaling fill --disable-mouse --disable-parallax --screen-root eDP-1 --bg 3442541938
 
