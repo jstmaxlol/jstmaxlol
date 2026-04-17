@@ -58,6 +58,8 @@ let mapleader = ","
 " -------- 'c ---------
 command! Src source ~/.vimrc
 command! Vimrc edit ~/.vimrc
+command! Make !make
+command! Run !make run
 " the coolest regex-es you'll see (fake as fuck)
 command! RmComments %s/\s*\/\/\s*.*//
 " -------- 'C ---------
