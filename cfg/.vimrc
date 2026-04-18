@@ -117,7 +117,16 @@ nnoremap <leader>fb <cmd>Telescope buffers<cr>
 
 lua << EOF
     require("nvim-surround").setup({})
-    require('Comment').setup()
+    require('Comment').setup({
+        toggler = {
+            line = '<leader>c',
+            block = '<leader>b',
+        },
+        opleader = {
+            line = '<leader>c',
+            block = '<leader>b',
+        },
+    })
 EOF
 
 " -------- 'k ---------
@@ -146,8 +155,8 @@ function! s:skkeleton_init() abort
 endfunction
 
 augroup skkeleton-initialize-pre
-  autocmd!
-  autocmd User skkeleton-initialize-pre call s:skkeleton_init()
+    autocmd!
+    autocmd User skkeleton-initialize-pre call s:skkeleton_init()
 augroup END
 
 " -------- 't ---------
@@ -203,7 +212,7 @@ augroup fuck_ftdetect
 augroup END
 
 lua << EOF
-require('nvim-autopairs').setup{}
+    require('nvim-autopairs').setup{}
 EOF
 
 " -------- 'f ---------
@@ -308,8 +317,8 @@ lua << EOF
             theme = lualine_theme(),
             icons_enabled = true,
             globalstatus = true,
-            component_separators = { left = '//', right = '//' },
-            section_separators = { left = '', right = '' },
+            component_separators = { left = '・', right = '・' },
+            section_separators = { left = '・', right = '・' },
         },
 
         sections = {
@@ -375,15 +384,15 @@ lua << EOF
 EOF
 
 lua << EOF
-local toggle = true
+    local toggle = true
 
-vim.keymap.set("n", "<C-w>n", function()
-  if toggle then
-    vim.cmd("vnew") -- right
-  else
-    vim.cmd("new")  -- bottom
-  end
-  toggle = not toggle
-end, { silent = true })
+    vim.keymap.set("n", "<C-w>n", function()
+        if toggle then
+            vim.cmd("vnew") -- right
+        else
+            vim.cmd("new")  -- bottom
+        end
+        toggle = not toggle
+    end, { silent = true })
 EOF
 
