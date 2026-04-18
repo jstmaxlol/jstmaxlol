@@ -43,8 +43,6 @@ tnoremap <A-Esc> <C-\><C-n>
 syntax on
 
 " -------- 'b ---------
-" i set this while crying because vim on windows sucks so much
-" kinda useless though nvim suxx so this is still useful
 " relative line numbers for life
 set nu rnu cursorline
 " disable mouse because who fucking needs that shit HAH
@@ -63,9 +61,6 @@ command! Run !make run
 " the coolest regex-es you'll see (fake as fuck)
 command! RmComments %s/\s*\/\/\s*.*//
 " -------- 'C ---------
-
-"add time at the right of status bar thing
-set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P\ %{strftime(\"%Y年%m月%d日\ %H時%M分%S秒\")}
 
 " for vim-polyglot
 set nocompatible
