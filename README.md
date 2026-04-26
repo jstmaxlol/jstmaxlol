@@ -1,4 +1,4 @@
-<img width="3840" height="960" alt="cz_banner" src="https://github.com/user-attachments/assets/3a43e97f-61e2-434b-97b3-1aa0f29aec26" />
+<img width="1500" height="500" alt="cz_banner" src="https://github.com/user-attachments/assets/2297ca69-9631-4a82-9dc9-4bf2352349a4" />
 
 ```
 __/\__    _     _                        _                                         
