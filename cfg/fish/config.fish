@@ -1,8 +1,8 @@
 # ~/.config/fish/config.fish
 if status is-interactive
 
-    keychain id_ed25519
-    keychain D9B423C43C7416D7
+    DISPLAY= keychain id_ed25519
+    DISPLAY= keychain D9B423C43C7416D7
     source ~/.keychain/(hostname)-fish
 
     set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
@@ -13,6 +13,8 @@ if status is-interactive
 	set -x VIMRUNTIME "/usr/share/nvim/runtime"
     #set -x WINEPREFIX ~/winestuff/ps2018
 	set -x WINEARCH win64
+    set -x PATH $ANDROID_HOME/cmdline-tools/latest/bin $PATH
+    set -x PATH $ANDROID_HOME/platform-tools $PATH
     export GTK_IM_MODULE=ibus
     export QT_IM_MODULE=ibus
     export XMODIFIERS=@im=ibus
@@ -23,6 +25,8 @@ if status is-interactive
 	alias ff fastfetch
 	alias nf nfetch
     alias lg lazygit
+    alias irs irssi
+    alias irc irs
 	alias src "source ~/.config/fish/config.fish"
 	alias vimrc "nvim ~/.vimrc"
 	alias frc "nvim ~/.config/fish/config.fish"
@@ -43,10 +47,20 @@ if status is-interactive
     alias trexa "exa --tree --level=2 --icons"
     alias tl trexa
     alias swayrc "nvim ~/.config/sway/config"
+    # yes, i truly am *this* lazy btw
     alias ql qalc
     alias rofi_ty1 "~/.config/rofi/launchers/type-1/launcher.sh"
     alias tmuxrc "nvim ~/.tmux.conf"
-    # yes, i truly am *this* lazy btw
+    # trashcan
+        alias t trash
+        alias trm trash-put
+        alias tget trash-restore
+        alias tempty trash-empty
+        alias tem tempty
+        alias tlist trash-list
+        alias th tlist
+        alias tls tlist
+    # endoftrash
     alias mkx makex
     alias ts tailscale
     alias md mkdir
@@ -110,6 +124,7 @@ if status is-interactive
     alias a2d 'aria2c --enable-rpc'
     alias sign 'gpg --sign'
     alias detach-sign 'gpg --detach-sign'
+    alias cacafire_term 'DISPLAY= cacafire'
     # AVD
     set -x ANDROID_HOME /opt/android-sdk
     set -x PATH $PATH $ANDROID_HOME/emulator $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
