@@ -3,7 +3,7 @@
 	"font_size": 12,
 	"margin": "8",
 	"gdi": "true",
-	"theme": "Cyanide.sublime-theme",
+	//"theme": "Cyanide.sublime-theme",
 	"draw_centered": "true",
 	"auto_complete": "false",
 	"themed_title_bar": "true",
@@ -11,14 +11,16 @@
 	"hardware_acceleration": "opengl",
 	"draw_minimap": "false",
 	"overlay_scroll_bars": "enabled",
+	/*"overlay_scroll_bars": "enabled",*/
 	"always_show_minimap": "false",
 	"small_ui_font": "true",
-	"color_scheme": "Packages/Theme - Cyanide/Cyanide - Alert - Black.tmTheme",
+	"color_scheme": "Packages/Monokai++/themes/Monokai++.tmTheme",
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"index_files": true,
-	"relative_line_numbers": true
+	"neovintageous_build_version": 13200,
+	"relative_line_numbers": true,
+	"theme": "Adaptive.sublime-theme",
 }
-
