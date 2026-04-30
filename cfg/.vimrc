@@ -95,6 +95,7 @@ call plug#begin()
     Plug 'numToStr/Comment.nvim'
     Plug 'nvim-lualine/lualine.nvim'
     Plug 'akinsho/bufferline.nvim'
+    Plug 'reborn-lang/vim-reborn'
 
 call plug#end()
 " -------- 'P ---------
@@ -159,8 +160,8 @@ augroup END
 set background=dark
 "silent! color chocolatier
 "silent! color retrobox
-silent! color ashen
-"silent! color monokai_pro
+"silent! color ashen
+silent! color monokai_pro
 " -------- 'T ---------
 
 lua << EOF
@@ -212,7 +213,7 @@ EOF
 
 " -------- 'f ---------
 " === coc.nvim config ===
-let g:coc_global_extensions = ['coc-clangd', 'coc-html', 'coc-tsserver', 'coc-sh', 'coc-css', 'coc-pyright', 'coc-go']
+let g:coc_global_extensions = ['coc-clangd', 'coc-html', 'coc-tsserver', 'coc-sh', 'coc-css', 'coc-pyright', 'coc-go', 'coc-lua']
 let g:coc_user_config = {'clangd.inlayHints.enable': v:false}
 "
 hi CocErrorSign guifg=Red
@@ -237,11 +238,6 @@ autocmd FileType javascript,typescript setlocal indentexpr=
 " -------- 'g ---------
 " zen-c filetype detection (w zuhaitz)
 au BufRead,BufNewFile *.zc set filetype=zen
-
-" reborn filetype detection
-" temporarily set to filetype=c
-au BufRead,BufNewFile *.rn set filetype=c
-au BufRead,BufNewFile *.rh set filetype=c
 
 " -------- 'h ---------
 lua << EOF
