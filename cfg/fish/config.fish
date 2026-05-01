@@ -1,12 +1,6 @@
 # ~/.config/fish/config.fish
 if status is-interactive
 
-    DISPLAY= keychain id_ed25519
-    DISPLAY= keychain D9B423C43C7416D7
-    source ~/.keychain/(hostname)-fish
-
-    set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
-
 	# ENVIRONMENT VARIABLES
 	set -x EDITOR nvim
 	set -x TERMINAL alacritty
@@ -18,6 +12,23 @@ if status is-interactive
     export GTK_IM_MODULE=ibus
     export QT_IM_MODULE=ibus
     export XMODIFIERS=@im=ibus
+
+    # keychain
+    keychain id_ed25519
+    keychain D9B423C43C7416D7
+    source ~/.keychain/(hostname)-fish
+    
+    #set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
+
+    function fuck -d "correct your previous console command"
+        set -l fucked_up_command $history[1]
+        env TF_SHELL=fish TF_ALIAS=fuck PYTHONIOENCODING=utf-8 thefuck $fucked_up_command THEFUCK_ARGUMENT_PLACEHOLDER $argv | read -l unfucked_command
+        if [ "$unfucked_command" != "" ]
+            eval $unfucked_command
+            builtin history delete --exact --case-sensitive -- $fucked_up_command
+            builtin history merge
+        end
+    end
 
 	# ALIASES
 	alias v nvim
@@ -42,6 +53,7 @@ if status is-interactive
 	alias ffrc "nvim ~/.config/fastfetch/config.jsonc"
 	alias cfr "java -jar /usr/bin/cfr.jar"
 	alias py "python"
+    alias secsz aarch64-linux-gnu-size
 	alias drumz "drumseq ch ch h ch s ch h s -x -bpm=360"
     alias dashbd-clock "tty-clock -s -c -C 1"
     alias trexa "exa --tree --level=2 --icons"

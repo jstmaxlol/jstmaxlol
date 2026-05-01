@@ -1,5 +1,12 @@
 # X
 
+export XDG_CURRENT_DESKTOP=i3
+export XDG_SESSION_DESKTOP=i3
+export DESKTOP_SESSION=i3
+export GTK_IM_MODULE=ibus
+export QT_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+
 setxkbmap -option caps:escape
 setxkbmap -option compose:ralt
 
