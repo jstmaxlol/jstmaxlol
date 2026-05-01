@@ -3,12 +3,15 @@ if status is-interactive
 
 	# ENVIRONMENT VARIABLES
 	set -x EDITOR nvim
+	set -x VISUAL nvim
 	set -x TERMINAL alacritty
 	set -x VIMRUNTIME "/usr/share/nvim/runtime"
     #set -x WINEPREFIX ~/winestuff/ps2018
 	set -x WINEARCH win64
+    set -x ANDROID_HOME /opt/android-sdk
     set -x PATH $ANDROID_HOME/cmdline-tools/latest/bin $PATH
     set -x PATH $ANDROID_HOME/platform-tools $PATH
+    #
     export GTK_IM_MODULE=ibus
     export QT_IM_MODULE=ibus
     export XMODIFIERS=@im=ibus
@@ -83,34 +86,38 @@ if status is-interactive
     alias inspirc "sudo -E nvim /etc/inspircd/inspircd.conf"
     alias wzrc "nvim ~/.wezterm.lua"
     alias kittyrc "nvim ~/.config/kitty/kitty.conf"
-    alias srm "sudo rm"
+    alias krc kittyrc
+    alias srm "sudo -E rm"
     alias safexvnc "x11vnc -rfbauth ~/.vnc/passwd -localhost -noxdamage -nowf -noscr -xkb -repeat -shared"
     alias svcs "systemctl list-units --type=service --state=running"
-    alias wlanPwrSaveOn "sudo iw dev wlan0 set power_save on"
-    alias wlanPwrSaveOff "sudo iw dev wlan0 set power_save off"
-    alias cpuPwrSaveOn "sudo cpupower frequency-set -g powersave"
-    alias cpuPwrSaveOff "sudo cpupower frequency-set -g performance"
+    alias wlanPwrSaveOn "sudo -E iw dev wlan0 set power_save on"
+    alias wlanPwrSaveOff "sudo -E iw dev wlan0 set power_save off"
+    alias cpuPwrSaveOn "sudo -E cpupower frequency-set -g powersave"
+    alias cpuPwrSaveOff "sudo -E cpupower frequency-set -g performance"
     # sudo systemctl * {
-        alias starts "sudo systemctl start"
+        alias starts "sudo -E systemctl start"
         alias ustarts "systemctl --user start"
 
-        alias stops "sudo systemctl stop"
+        alias stops "sudo -E systemctl stop"
         alias ustops "systemctl --user stop"
 
-        alias reloads "sudo systemctl reload"
+        alias reloads "sudo -E systemctl reload"
         alias ureloads "systemctl --user reload"
 
-        alias restarts "sudo systemctl restart"
+        alias restarts "sudo -E systemctl restart"
         alias urestarts "systemctl --user restart"
 
-        alias statuses "sudo systemctl status"
+        alias statuses "sudo -E systemctl status"
         alias ustatuses "systemctl --user status"
 
-        alias enables "sudo systemctl enable"
+        alias enables "sudo -E systemctl enable"
         alias uenables "systemctl --user enable"
 
-        alias disables "sudo systemctl disable"
+        alias disables "sudo -E systemctl disable"
         alias udisables "systemctl --user disable"
+
+        alias edits "sudo -E systemctl edit"
+        alias uedits "systemctl --user edit"
     # }
     alias tsf "tailscale funnel"
     alias finf "cpupower frequency-info"
@@ -137,8 +144,7 @@ if status is-interactive
     alias sign 'gpg --sign'
     alias detach-sign 'gpg --detach-sign'
     alias cacafire_term 'DISPLAY= cacafire'
-    # AVD
-    set -x ANDROID_HOME /opt/android-sdk
-    set -x PATH $PATH $ANDROID_HOME/emulator $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
+    alias startkmx 'sudo kmscon --login --no-switchvt --drm --mouse --hwaccel --xkb-layout=us --font-name=Iosevka --font-size=16 --xkb-options=caps:escape,compose:ralt --font-antialiasing=full --vt'
+
 end
 
