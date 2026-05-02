@@ -36,6 +36,7 @@ if status is-interactive
 	# ALIASES
 	alias v nvim
     alias b bat
+    alias s sudo
 	alias ff fastfetch
 	alias nf nfetch
     alias lg lazygit
