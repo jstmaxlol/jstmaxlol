@@ -136,9 +136,6 @@ client.focused_inactive #0f0f0f #0f0f0f #f82323 #0f0f0f
 client.unfocused        #0f0f0f #0f0f0f #f82323 #0f0f0f
 client.urgent           #0f0f0f #0f0f0f #f82323 #0f0f0f
 
-# -------------------------
-# bar black + white (kurobar.sh)
-# -------------------------
 bar {
 #status_command i3status
     status_command ~/.config/i3/kurobar.sh
@@ -193,4 +190,6 @@ bindsym $mod+l exec slock
 #exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/3440615026x.png
 #exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/3442541938x.png
 exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/austin.png
+#exec --no-startup-id sleep 1 && linux-wallpaperengine --fps 15 --silent --scaling fill --disable-mouse --disable-parallax --screen-root eDP-1  --bg 3440615026
+#exec --no-startup-id sleep 1 && linux-wallpaperengine --fps 15 --silent --scaling fill --disable-mouse --disable-parallax --screen-root eDP-1 --bg 3442541938
 
