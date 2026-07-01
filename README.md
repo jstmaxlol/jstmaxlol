@@ -7,9 +7,9 @@ if you want to checkout my stuff see my website, <czkove.cc>, and my repos <git.
 
 some interesting project:
 
-- dotfiles - https://git.czkove.cc/dots
-- led modal text editor - https://git.czkove.cc/led
+- led modal text editor       - https://git.czkove.cc/led
 - doscript scripting language - https://git.czkove.cc/do
+- dotfiles                    - https://git.czkove.cc/dots
 
 also i was gonna add an 'abandoned' note and archive every repo
 but i figured it would be better to just put a note here and say
